@@ -1,0 +1,597 @@
+###############################################################################
+#
+# IAR ELF Linker V9.50.2.385/W64 for ARM                  09/Jul/2024  04:33:03
+# Copyright 2007-2024 IAR Systems AB.
+#
+#    Output file  =
+#        D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote
+#        Access\Dr. Reyad\STM32 Projects\IAR\Debugging\Shady\Shady3\A9G_Driver
+#        WS\A9G_Driver WS\Debug\Exe\A9G.out
+#    Map file     =
+#        D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote
+#        Access\Dr. Reyad\STM32 Projects\IAR\Debugging\Shady\Shady3\A9G_Driver
+#        WS\A9G_Driver WS\Debug\List\A9G.map
+#    Command line =
+#        -f "D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle
+#        Remote Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Shady\Shady3\A9G_Driver WS\A9G_Driver
+#        WS\Debug\Exe\A9G.out.rsp" ("D:\College files\EECE 4th Year\Graduation
+#        Project\FOTA&Vehicle Remote Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Shady\Shady3\A9G_Driver WS\A9G_Driver
+#        WS\Debug\Obj\A9G.o" "D:\College files\EECE 4th Year\Graduation
+#        Project\FOTA&Vehicle Remote Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Shady\Shady3\A9G_Driver WS\A9G_Driver
+#        WS\Debug\Obj\CAN.o" "D:\College files\EECE 4th Year\Graduation
+#        Project\FOTA&Vehicle Remote Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Shady\Shady3\A9G_Driver WS\A9G_Driver
+#        WS\Debug\Obj\CAN_PBCFG.o" "D:\College files\EECE 4th Year\Graduation
+#        Project\FOTA&Vehicle Remote Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Shady\Shady3\A9G_Driver WS\A9G_Driver
+#        WS\Debug\Obj\cstartup_M.o" "D:\College files\EECE 4th Year\Graduation
+#        Project\FOTA&Vehicle Remote Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Shady\Shady3\A9G_Driver WS\A9G_Driver
+#        WS\Debug\Obj\Delay.o" "D:\College files\EECE 4th Year\Graduation
+#        Project\FOTA&Vehicle Remote Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Shady\Shady3\A9G_Driver WS\A9G_Driver
+#        WS\Debug\Obj\Det.o" "D:\College files\EECE 4th Year\Graduation
+#        Project\FOTA&Vehicle Remote Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Shady\Shady3\A9G_Driver WS\A9G_Driver
+#        WS\Debug\Obj\Dio.o" "D:\College files\EECE 4th Year\Graduation
+#        Project\FOTA&Vehicle Remote Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Shady\Shady3\A9G_Driver WS\A9G_Driver
+#        WS\Debug\Obj\Dio_PBcfg.o" "D:\College files\EECE 4th Year\Graduation
+#        Project\FOTA&Vehicle Remote Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Shady\Shady3\A9G_Driver WS\A9G_Driver
+#        WS\Debug\Obj\DMA.o" "D:\College files\EECE 4th Year\Graduation
+#        Project\FOTA&Vehicle Remote Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Shady\Shady3\A9G_Driver WS\A9G_Driver
+#        WS\Debug\Obj\DMA_PBcfg.o" "D:\College files\EECE 4th Year\Graduation
+#        Project\FOTA&Vehicle Remote Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Shady\Shady3\A9G_Driver WS\A9G_Driver
+#        WS\Debug\Obj\LCD.o" "D:\College files\EECE 4th Year\Graduation
+#        Project\FOTA&Vehicle Remote Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Shady\Shady3\A9G_Driver WS\A9G_Driver
+#        WS\Debug\Obj\LPWAN.o" "D:\College files\EECE 4th Year\Graduation
+#        Project\FOTA&Vehicle Remote Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Shady\Shady3\A9G_Driver WS\A9G_Driver
+#        WS\Debug\Obj\main.o" "D:\College files\EECE 4th Year\Graduation
+#        Project\FOTA&Vehicle Remote Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Shady\Shady3\A9G_Driver WS\A9G_Driver
+#        WS\Debug\Obj\PLL.o" "D:\College files\EECE 4th Year\Graduation
+#        Project\FOTA&Vehicle Remote Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Shady\Shady3\A9G_Driver WS\A9G_Driver
+#        WS\Debug\Obj\Port.o" "D:\College files\EECE 4th Year\Graduation
+#        Project\FOTA&Vehicle Remote Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Shady\Shady3\A9G_Driver WS\A9G_Driver
+#        WS\Debug\Obj\Port_PBcfg.o" "D:\College files\EECE 4th Year\Graduation
+#        Project\FOTA&Vehicle Remote Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Shady\Shady3\A9G_Driver WS\A9G_Driver
+#        WS\Debug\Obj\sys_timer.o" "D:\College files\EECE 4th Year\Graduation
+#        Project\FOTA&Vehicle Remote Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Shady\Shady3\A9G_Driver WS\A9G_Driver
+#        WS\Debug\Obj\sys_timerPBcfg.o" "D:\College files\EECE 4th
+#        Year\Graduation Project\FOTA&Vehicle Remote Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Shady\Shady3\A9G_Driver WS\A9G_Driver
+#        WS\Debug\Obj\UART.o" "D:\College files\EECE 4th Year\Graduation
+#        Project\FOTA&Vehicle Remote Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Shady\Shady3\A9G_Driver WS\A9G_Driver
+#        WS\Debug\Obj\UART2.o" --no_out_extension -o "D:\College files\EECE 4th
+#        Year\Graduation Project\FOTA&Vehicle Remote Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Shady\Shady3\A9G_Driver WS\A9G_Driver
+#        WS\Debug\Exe\A9G.out" --redirect _Printf=_PrintfFullNoMb --redirect
+#        _Scanf=_ScanfFullNoMb --map "D:\College files\EECE 4th Year\Graduation
+#        Project\FOTA&Vehicle Remote Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Shady\Shady3\A9G_Driver WS\A9G_Driver
+#        WS\Debug\List\A9G.map" --config
+#        D:\EngineeringApps\IAR\arm/config/linker/ST/stm32f103x8.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale
+#        --cpu=Cortex-M3 --fpu=None) --dependencies=n "D:\College files\EECE
+#        4th Year\Graduation Project\FOTA&Vehicle Remote Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Shady\Shady3\A9G_Driver WS\A9G_Driver
+#        WS\Debug\Exe\A9G.out.iar_deps"
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because --advanced_heap
+was not specified and the application did not appear to
+be primarily optimized for speed.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'3000 { ro section .intvec };
+"P1":  place in [from 0x800'3000 to 0x800'ffff] { ro };
+define block CSTACK with size = 2K, alignment = 8 { };
+define block HEAP with size = 2K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'4fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address  Aligment    Size  Object
+  -------            ----         -------  --------    ----  ------
+"A0":                                                  0xe0
+  .intvec            const     0x800'3000         4    0xe0  cstartup_M.o [1]
+                             - 0x800'30e0              0xe0
+
+"P1":                                                0x40f3
+  .text              ro code   0x800'30e0         4   0xf5e  A9G.o [1]
+  .text              ro code   0x800'403e         2    0x7e  lz77_init_single.o [4]
+  .text              ro code   0x800'40bc         4    0xb4  sys_timer.o [1]
+  .text              ro code   0x800'4170         2   0x1f0  LCD.o [1]
+  .text              ro code   0x800'4360         4    0x1a  Delay.o [1]
+  .text              ro code   0x800'437a         2     0x2  cstartup_M.o [1]
+  .text              ro code   0x800'437c         4   0x158  UART2.o [1]
+  .text              ro code   0x800'44d4         4   0x1b0  DMA.o [1]
+  .text              ro code   0x800'4684         4    0x66  ABImemset.o [4]
+  .text              ro code   0x800'46ea         2     0x2  cstartup_M.o [1]
+  .text              ro code   0x800'46ec         4    0x76  ABImemcpy_unaligned.o [4]
+  .text              ro code   0x800'4762         2     0x2  cstartup_M.o [1]
+  .text              ro code   0x800'4764         4    0xfc  Dio.o [1]
+  .text              ro code   0x800'4860         4   0xdc4  Port.o [1]
+  .text              ro code   0x800'5624         4    0x1a  U32ToFlt.o [3]
+  .text              ro code   0x800'563e         2     0x2  cstartup_M.o [1]
+  .text              ro code   0x800'5640         4   0x118  FltDiv.o [3]
+  .text              ro code   0x800'5758         4   0x162  FltAddSub.o [3]
+  .text              ro code   0x800'58ba         2     0x2  cstartup_M.o [1]
+  .text              ro code   0x800'58bc         4    0x18  FltToU32.o [3]
+  .text              ro code   0x800'58d4         2     0x2  Det.o [1]
+  .text              ro code   0x800'58d6         2     0x2  cstartup_M.o [1]
+  .text              ro code   0x800'58d8         4   0x52a  main.o [1]
+  .text              ro code   0x800'5e02         2     0x2  cstartup_M.o [1]
+  .text              ro code   0x800'5e04         4    0x5e  LPWAN.o [1]
+  .text              ro code   0x800'5e62         2     0x2  cstartup_M.o [1]
+  .text              ro code   0x800'5e64         4    0x4c  PLL.o [1]
+  .text              ro code   0x800'5eb0         4   0x450  CAN.o [1]
+  .text              ro code   0x800'6300         4   0x124  UART.o [1]
+  .rodata            const     0x800'6424         4    0xe0  CAN_PBCFG.o [1]
+  .rodata            const     0x800'6504         4    0xc8  A9G.o [1]
+  .rodata            const     0x800'65cc         4    0x98  A9G.o [1]
+  .rodata            const     0x800'6664         4    0x98  A9G.o [1]
+  .rodata            const     0x800'66fc         4    0x50  A9G.o [1]
+  .rodata            const     0x800'674c         4    0x50  A9G.o [1]
+  .rodata            const     0x800'679c         4    0x48  A9G.o [1]
+  .rodata            const     0x800'67e4         4    0x48  A9G.o [1]
+  .rodata            const     0x800'682c         4    0x44  A9G.o [1]
+  .rodata            const     0x800'6870         4    0x40  A9G.o [1]
+  .rodata            const     0x800'68b0         4    0x3c  A9G.o [1]
+  .rodata            const     0x800'68ec         4    0x3c  A9G.o [1]
+  .rodata            const     0x800'6928         4    0x3c  A9G.o [1]
+  .rodata            const     0x800'6964         4    0x38  A9G.o [1]
+  .text              ro code   0x800'699c         2    0x38  zero_init3.o [4]
+  .rodata            const     0x800'69d4         4    0x34  A9G.o [1]
+  .rodata            const     0x800'6a08         4    0x34  A9G.o [1]
+  .rodata            const     0x800'6a3c         4    0x30  A9G.o [1]
+  .rodata            const     0x800'6a6c         4    0x2c  A9G.o [1]
+  .rodata            const     0x800'6a98         4    0x2c  A9G.o [1]
+  .text              ro code   0x800'6ac4         4    0x2a  data_init.o [4]
+  .rodata            const     0x800'6af0         4    0x28  A9G.o [1]
+  .rodata            const     0x800'6b18         4    0x24  A9G.o [1]
+  .rodata            const     0x800'6b3c         4    0x24  A9G.o [1]
+  .iar.init_table    const     0x800'6b60         4    0x20  - Linker created -
+  .rodata            const     0x800'6b80         4    0x20  A9G.o [1]
+  .rodata            const     0x800'6ba0         4    0x20  A9G.o [1]
+  .rodata            const     0x800'6bc0         4    0x20  Dio_PBcfg.o [1]
+  .text              ro code   0x800'6be0         4    0x1e  cmain.o [4]
+  .text              ro code   0x800'6bfe         2     0x4  low_level_init.o [2]
+  .text              ro code   0x800'6c02         2     0x4  exit.o [2]
+  .text              ro code   0x800'6c08         4     0xa  cexit.o [4]
+  .text              ro code   0x800'6c14         4    0x14  exit.o [5]
+  .rodata            const     0x800'6c28         4    0x1c  A9G.o [1]
+  .rodata            const     0x800'6c44         4    0x18  A9G.o [1]
+  .rodata            const     0x800'6c5c         4    0x18  A9G.o [1]
+  .rodata            const     0x800'6c74         4    0x18  A9G.o [1]
+  .rodata            const     0x800'6c8c         4    0x18  DMA_PBcfg.o [1]
+  .rodata            const     0x800'6ca4         4    0x18  DMA_PBcfg.o [1]
+  .rodata            const     0x800'6cbc         4    0x18  main.o [1]
+  .rodata            const     0x800'6cd4         4    0x18  main.o [1]
+  .rodata            const     0x800'6cec         4    0x18  main.o [1]
+  .rodata            const     0x800'6d04         4    0x14  A9G.o [1]
+  .rodata            const     0x800'6d18         4    0x14  A9G.o [1]
+  .rodata            const     0x800'6d2c         4    0x14  A9G.o [1]
+  .rodata            const     0x800'6d40         4    0x14  A9G.o [1]
+  .rodata            const     0x800'6d54         4    0x14  A9G.o [1]
+  .rodata            const     0x800'6d68         4    0x14  A9G.o [1]
+  .rodata            const     0x800'6d7c         4    0x14  A9G.o [1]
+  .rodata            const     0x800'6d90         4    0x14  A9G.o [1]
+  .rodata            const     0x800'6da4         4    0x14  A9G.o [1]
+  .rodata            const     0x800'6db8         4    0x14  A9G.o [1]
+  .rodata            const     0x800'6dcc         4    0x14  A9G.o [1]
+  .rodata            const     0x800'6de0         4    0x14  A9G.o [1]
+  .rodata            const     0x800'6df4         4    0x14  CAN_PBCFG.o [1]
+  .rodata            const     0x800'6e08         4    0x14  LPWAN.o [1]
+  .rodata            const     0x800'6e1c         4    0x14  main.o [1]
+  .rodata            const     0x800'6e30         4    0x10  A9G.o [1]
+  .rodata            const     0x800'6e40         4    0x10  A9G.o [1]
+  .rodata            const     0x800'6e50         4    0x10  A9G.o [1]
+  .rodata            const     0x800'6e60         4    0x10  A9G.o [1]
+  .rodata            const     0x800'6e70         4    0x10  A9G.o [1]
+  .rodata            const     0x800'6e80         4    0x10  A9G.o [1]
+  .rodata            const     0x800'6e90         4    0x10  A9G.o [1]
+  .rodata            const     0x800'6ea0         4    0x10  A9G.o [1]
+  .rodata            const     0x800'6eb0         4    0x10  A9G.o [1]
+  .rodata            const     0x800'6ec0         4    0x10  A9G.o [1]
+  .rodata            const     0x800'6ed0         4    0x10  A9G.o [1]
+  .rodata            const     0x800'6ee0         4    0x10  A9G.o [1]
+  .rodata            const     0x800'6ef0         4    0x10  A9G.o [1]
+  .rodata            const     0x800'6f00         4    0x10  A9G.o [1]
+  .rodata            const     0x800'6f10         4    0x10  main.o [1]
+  .rodata            const     0x800'6f20         4    0x10  main.o [1]
+  .rodata            const     0x800'6f30         4    0x10  main.o [1]
+  .rodata            const     0x800'6f40         4    0x10  main.o [1]
+  .text              ro code   0x800'6f50         2    0x10  cstartup_M.o [1]
+  .rodata            const     0x800'6f60         4     0xc  A9G.o [1]
+  .rodata            const     0x800'6f6c         4     0xc  A9G.o [1]
+  .rodata            const     0x800'6f78         4     0xc  A9G.o [1]
+  .rodata            const     0x800'6f84         4     0xc  A9G.o [1]
+  .rodata            const     0x800'6f90         4     0xc  A9G.o [1]
+  .rodata            const     0x800'6f9c         4     0xc  A9G.o [1]
+  .rodata            const     0x800'6fa8         4     0xc  A9G.o [1]
+  .rodata            const     0x800'6fb4         4     0xc  A9G.o [1]
+  .rodata            const     0x800'6fc0         4     0xc  A9G.o [1]
+  .rodata            const     0x800'6fcc         4     0xc  A9G.o [1]
+  .rodata            const     0x800'6fd8         4     0xc  A9G.o [1]
+  .rodata            const     0x800'6fe4         4     0xc  A9G.o [1]
+  .rodata            const     0x800'6ff0         4     0xc  A9G.o [1]
+  .rodata            const     0x800'6ffc         4     0xc  A9G.o [1]
+  .rodata            const     0x800'7008         4     0xc  A9G.o [1]
+  .rodata            const     0x800'7014         4     0xc  A9G.o [1]
+  .rodata            const     0x800'7020         4     0xc  A9G.o [1]
+  .rodata            const     0x800'702c         4     0xc  A9G.o [1]
+  .rodata            const     0x800'7038         4     0xc  main.o [1]
+  .rodata            const     0x800'7044         4     0xc  main.o [1]
+  .rodata            const     0x800'7050         4     0xc  main.o [1]
+  .rodata            const     0x800'705c         4     0xc  main.o [1]
+  .rodata            const     0x800'7068         4     0xc  main.o [1]
+  .rodata            const     0x800'7074         4     0x8  A9G.o [1]
+  .rodata            const     0x800'707c         4     0x8  A9G.o [1]
+  .rodata            const     0x800'7084         4     0x8  A9G.o [1]
+  .rodata            const     0x800'708c         4     0x8  A9G.o [1]
+  .rodata            const     0x800'7094         4     0x8  A9G.o [1]
+  .rodata            const     0x800'709c         4     0x8  A9G.o [1]
+  .rodata            const     0x800'70a4         4     0x8  A9G.o [1]
+  .rodata            const     0x800'70ac         4     0x8  A9G.o [1]
+  .rodata            const     0x800'70b4         4     0x8  A9G.o [1]
+  .rodata            const     0x800'70bc         4     0x8  A9G.o [1]
+  .rodata            const     0x800'70c4         4     0x8  main.o [1]
+  .rodata            const     0x800'70cc         4     0x8  main.o [1]
+  .rodata            const     0x800'70d4         4     0x8  main.o [1]
+  .rodata            const     0x800'70dc         4     0x8  main.o [1]
+  .rodata            const     0x800'70e4         4     0x8  main.o [1]
+  .rodata            const     0x800'70ec         4     0x4  sys_timerPBcfg.o [1]
+  .rodata            const     0x800'70f0               0x0  zero_init3.o [4]
+  .rodata            const     0x800'70f0               0x0  lz77_init_single.o [4]
+  Initializer bytes  const     0x800'70f0              0xe3  <for P2-1>
+                             - 0x800'71d3            0x40f3
+
+"P2", part 1 of 3:                                    0x2f4
+  P2-1                        0x2000'0000             0x2f4  <Init block>
+    .data            inited   0x2000'0000         4    0x3c  main.o [1]
+    .data            inited   0x2000'003c         4    0x3c  main.o [1]
+    .data            inited   0x2000'0078         4    0x3c  main.o [1]
+    .data            inited   0x2000'00b4         4    0x3c  main.o [1]
+    .data            inited   0x2000'00f0         4    0x3c  main.o [1]
+    .data            inited   0x2000'012c         4    0x34  main.o [1]
+    .data            inited   0x2000'0160         4    0x34  main.o [1]
+    .data            inited   0x2000'0194         4   0x160  Port_PBcfg.o [1]
+                            - 0x2000'02f4             0x2f4
+
+"P2", part 2 of 3:                                    0x698
+  .bss               zero     0x2000'02f4         4   0x1f4  DMA_PBcfg.o [1]
+  .bss               zero     0x2000'04e8         4   0x1f4  DMA_PBcfg.o [1]
+  .bss               zero     0x2000'06dc         4   0x1f4  main.o [1]
+  .bss               zero     0x2000'08d0         4    0x64  A9G.o [1]
+  .bss               zero     0x2000'0934         4    0x3c  main.o [1]
+  .bss               zero     0x2000'0970         4     0x4  Dio.o [1]
+  .bss               zero     0x2000'0974         4     0x4  Port.o [1]
+  .bss               zero     0x2000'0978         4     0x4  sys_timer.o [1]
+  .bss               zero     0x2000'097c               0x1  A9G.o [1]
+  .bss               zero     0x2000'097d               0x1  A9G.o [1]
+  .bss               zero     0x2000'097e               0x1  A9G.o [1]
+  .bss               zero     0x2000'097f               0x1  Dio.o [1]
+  .bss               zero     0x2000'0980               0x1  main.o [1]
+  .bss               zero     0x2000'0981               0x1  main.o [1]
+  .bss               zero     0x2000'0982               0x1  main.o [1]
+  .bss               zero     0x2000'0983               0x1  main.o [1]
+  .bss               zero     0x2000'0984               0x1  main.o [1]
+  .bss               zero     0x2000'0985               0x1  main.o [1]
+  .bss               zero     0x2000'0986               0x1  main.o [1]
+  .bss               zero     0x2000'0987               0x1  main.o [1]
+  .bss               zero     0x2000'0988               0x1  main.o [1]
+  .bss               zero     0x2000'0989               0x1  main.o [1]
+  .bss               zero     0x2000'098a               0x1  Port.o [1]
+                            - 0x2000'098b             0x697
+
+"P2", part 3 of 3:                                    0x800
+  CSTACK                      0x2000'0990         8   0x800  <Block>
+    CSTACK           uninit   0x2000'0990             0x800  <Block tail>
+                            - 0x2000'1190             0x800
+
+Unused ranges:
+
+         From           To    Size
+         ----           --    ----
+   0x800'71d3   0x800'ffff  0x8e2d
+  0x2000'098c  0x2000'098f     0x4
+  0x2000'1190  0x2000'4fff  0x3e70
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x697:
+          0x2000'02f4  0x697
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0xe3 (30% of destination):
+           0x800'70f0   0xe3
+    1 destination range, total size 0x2f4:
+          0x2000'0000  0x2f4
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+command line/config:
+    ------------------------------------------------
+    Total:
+
+D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote Access\Dr. Reyad\STM32 Projects\IAR\Debugging\Shady\Shady3\A9G_Driver WS\A9G_Driver WS\Debug\Obj: [1]
+    A9G.o                    3'934    2'452      103
+    CAN.o                    1'104
+    CAN_PBCFG.o                         244
+    DMA.o                      432
+    DMA_PBcfg.o                          48    1'000
+    Delay.o                     26
+    Det.o                        2
+    Dio.o                      252                 5
+    Dio_PBcfg.o                          32
+    LCD.o                      496
+    LPWAN.o                     94       20
+    PLL.o                       76
+    Port.o                   3'524                 5
+    Port_PBcfg.o                        106      352
+    UART.o                     292
+    UART2.o                    344
+    cstartup_M.o                32      224
+    main.o                   1'322      377      974
+    sys_timer.o                180                 4
+    sys_timerPBcfg.o                      4
+    ------------------------------------------------
+    Total:                  12'110    3'507    2'443
+
+dl7M_tln.a: [2]
+    exit.o                       4
+    low_level_init.o             4
+    ------------------------------------------------
+    Total:                       8
+
+m7M_tl.a: [3]
+    FltAddSub.o                354
+    FltDiv.o                   280
+    FltToU32.o                  24
+    U32ToFlt.o                  26
+    ------------------------------------------------
+    Total:                     684
+
+rt7M_tl.a: [4]
+    ABImemcpy_unaligned.o      118
+    ABImemset.o                102
+    cexit.o                     10
+    cmain.o                     30
+    data_init.o                 42
+    lz77_init_single.o         126
+    zero_init3.o                56
+    ------------------------------------------------
+    Total:                     484
+
+shb_l.a: [5]
+    exit.o                      20
+    ------------------------------------------------
+    Total:                      20
+
+    Gaps                         4        2
+    Linker created                       32    2'048
+----------------------------------------------------
+    Grand Total:            13'310    3'541    4'491
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'6b60          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'6b80          --   Gb  - Linker created -
+?main                    0x800'6be1         Code  Gb  cmain.o [4]
+A9G_Brokerconnect        0x800'35a3   0x5e  Code  Gb  A9G.o [1]
+A9G_EmergencyActs        0x800'3aa9   0x5e  Code  Gb  A9G.o [1]
+A9G_Init                 0x800'30eb   0xd4  Code  Gb  A9G.o [1]
+A9G_MQTTread             0x800'390d  0x10a  Code  Gb  A9G.o [1]
+A9G_PublishEmergency     0x800'3b11   0x38  Code  Gb  A9G.o [1]
+A9G_PublishEngine        0x800'3a5d   0x38  Code  Gb  A9G.o [1]
+A9G_PublishSpeed         0x800'3a17   0x3c  Code  Gb  A9G.o [1]
+A9G_Sendcmd              0x800'31bf   0x80  Code  Lc  A9G.o [1]
+A9G_Subscribe            0x800'3601  0x18a  Code  Lc  A9G.o [1]
+A9G_SystickHandler       0x800'30e1    0xa  Code  Gb  A9G.o [1]
+A9G_checkResponse        0x800'323f  0x282  Code  Lc  A9G.o [1]
+A9G_getTopicData         0x800'378b  0x182  Code  Lc  A9G.o [1]
+A9GtoNetwork             0x800'34c1   0xe2  Code  Gb  A9G.o [1]
+AC_Level_Cmd            0x2000'0078   0x3c  Data  Gb  main.o [1]
+AC_Level_Flag           0x2000'0987    0x1  Data  Gb  main.o [1]
+AC_State_Cmd            0x2000'00b4   0x3c  Data  Gb  main.o [1]
+AC_State_Flag           0x2000'0986    0x1  Data  Gb  main.o [1]
+BKP_Init                 0x800'5c7f   0x16  Code  Gb  main.o [1]
+BootloaderActivate_Flag
+                        0x2000'0981    0x1  Data  Gb  main.o [1]
+BusFault_Handler         0x800'563f    0x2  Code  Wk  cstartup_M.o [1]
+CAN1_RX0_IRQHandler      0x800'595b   0x3a  Code  Gb  main.o [1]
+CAN_Configurations       0x800'6df4   0x14  Data  Gb  CAN_PBCFG.o [1]
+CAN_Init                 0x800'5eb5  0x10c  Code  Gb  CAN.o [1]
+CSTACK$$Base            0x2000'0990          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'1190          --   Gb  - Linker created -
+Car_Engine_ACK          0x2000'0984    0x1  Data  Gb  main.o [1]
+Car_Engine_Cmd          0x2000'0160   0x34  Data  Gb  main.o [1]
+Car_Engine_Flag         0x2000'0983    0x1  Data  Gb  main.o [1]
+Car_Speed_Cmd           0x2000'0934   0x3c  Data  Gb  main.o [1]
+DMA_7_Configurations     0x800'6ca4   0x18  Data  Gb  DMA_PBcfg.o [1]
+DMA_Configurations       0x800'6c8c   0x18  Data  Gb  DMA_PBcfg.o [1]
+DMA_Disable              0x800'45d5   0x2e  Code  Gb  DMA.o [1]
+DMA_Enable               0x800'45a7   0x2e  Code  Gb  DMA.o [1]
+DMA_Init                 0x800'44d5   0xd2  Code  Gb  DMA.o [1]
+DMA_resetBuffer          0x800'4603   0x1a  Code  Gb  DMA.o [1]
+DMA_resetCNDTR           0x800'461d   0x5a  Code  Gb  DMA.o [1]
+Data_Array              0x2000'02f4  0x1f4  Data  Gb  DMA_PBcfg.o [1]
+DebugMon_Handler         0x800'5e03    0x2  Code  Wk  cstartup_M.o [1]
+Delay_MS                 0x800'4361   0x1a  Code  Gb  Delay.o [1]
+Det_ReportError          0x800'58d5    0x2  Code  Gb  Det.o [1]
+Dio_Configuration        0x800'6bc0   0x20  Data  Gb  Dio_PBcfg.o [1]
+Dio_Init                 0x800'4765   0x20  Code  Gb  Dio.o [1]
+Dio_PortChannels        0x2000'0970    0x4  Data  Lc  Dio.o [1]
+Dio_Status              0x2000'097f    0x1  Data  Lc  Dio.o [1]
+Dio_WriteChannel         0x800'4785   0xb8  Code  Gb  Dio.o [1]
+Door_Control_Flag       0x2000'0988    0x1  Data  Gb  main.o [1]
+Door_Ctrl_Cmd           0x2000'00f0   0x3c  Data  Gb  main.o [1]
+Drivers_init             0x800'5c99   0x4c  Code  Gb  main.o [1]
+Emergency_State_Cmd     0x2000'012c   0x34  Data  Gb  main.o [1]
+Emergency_State_Flag    0x2000'0982    0x1  Data  Gb  main.o [1]
+Filter_Configurations    0x800'6424   0xe0  Data  Gb  CAN_PBCFG.o [1]
+Filters_Init             0x800'5fc1  0x2fa  Code  Gb  CAN.o [1]
+GPS_Flag                0x2000'097e    0x1  Data  Gb  A9G.o [1]
+HardFault_Handler        0x800'46eb    0x2  Code  Wk  cstartup_M.o [1]
+JumpToBootloaderHandler
+                         0x800'5ce5   0x3a  Code  Lc  main.o [1]
+LCD_clearScreen          0x800'4357    0xa  Code  Gb  LCD.o [1]
+LCD_displayCharacter     0x800'4249   0xb6  Code  Gb  LCD.o [1]
+LCD_displayString        0x800'42ff   0x20  Code  Gb  LCD.o [1]
+LCD_displayStringRowColumn
+                         0x800'4343   0x14  Code  Gb  LCD.o [1]
+LCD_init                 0x800'4171   0x22  Code  Gb  LCD.o [1]
+LCD_moveCursor           0x800'431f   0x24  Code  Gb  LCD.o [1]
+LCD_sendCommand          0x800'4193   0xb6  Code  Gb  LCD.o [1]
+LPWAN_Data              0x2000'04e8  0x1f4  Data  Gb  DMA_PBcfg.o [1]
+LPWAN_Init               0x800'5e05   0x18  Code  Gb  LPWAN.o [1]
+LPWAN_Read               0x800'5a45   0xe0  Code  Gb  main.o [1]
+LPWAN_SendFrame          0x800'5e3d   0x26  Code  Gb  LPWAN.o [1]
+Limiter_State_Cmd       0x2000'0000   0x3c  Data  Gb  main.o [1]
+Limiter_State_Flag      0x2000'0985    0x1  Data  Gb  main.o [1]
+MemManage_Handler        0x800'4763    0x2  Code  Wk  cstartup_M.o [1]
+NMEAtoGPS                0x800'3b7d   0xda  Code  Lc  A9G.o [1]
+NMI_Handler              0x800'437b    0x2  Code  Wk  cstartup_M.o [1]
+PendSV_Handler           0x800'5e63    0x2  Code  Wk  cstartup_M.o [1]
+Port_ConfigPtr          0x2000'0974    0x4  Data  Lc  Port.o [1]
+Port_Configuration      0x2000'0194  0x160  Data  Gb  Port_PBcfg.o [1]
+Port_Init                0x800'4861  0x7c0  Code  Gb  Port.o [1]
+Port_SetPinMode          0x800'504d  0x5ac  Code  Gb  Port.o [1]
+Port_Status             0x2000'098a    0x1  Data  Lc  Port.o [1]
+Region$$Table$$Base      0x800'6b60          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'6b80          --   Gb  - Linker created -
+SVC_Handler              0x800'58d7    0x2  Code  Wk  cstartup_M.o [1]
+Send_Data                0x800'5b25   0xfc  Code  Gb  main.o [1]
+Speed_Limit_Cmd         0x2000'003c   0x3c  Data  Gb  main.o [1]
+Speed_Limit_Flag        0x2000'0989    0x1  Data  Gb  main.o [1]
+Stop_Flag               0x2000'097d    0x1  Data  Gb  A9G.o [1]
+Str_Cat                  0x800'3ff7   0x48  Code  Gb  A9G.o [1]
+SysTick_DeInit           0x800'4135   0x18  Code  Gb  sys_timer.o [1]
+SysTick_Handler          0x800'40bd   0x10  Code  Gb  sys_timer.o [1]
+SysTick_Init             0x800'40cd   0x30  Code  Gb  sys_timer.o [1]
+SysTick_SetCallBack      0x800'414d    0x6  Code  Gb  sys_timer.o [1]
+SysTick_delay            0x800'40fd   0x38  Code  Gb  sys_timer.o [1]
+SystemClockInit          0x800'5e65   0x4c  Code  Gb  PLL.o [1]
+Systick_Configurations   0x800'70ec    0x4  Data  Gb  sys_timerPBcfg.o [1]
+UART2_init               0x800'4381   0xfc  Code  Gb  UART2.o [1]
+UART2_sendByte           0x800'447d   0x10  Code  Gb  UART2.o [1]
+UART2_sendString         0x800'44b5   0x20  Code  Gb  UART2.o [1]
+UART_init                0x800'6309   0xc4  Code  Gb  UART.o [1]
+UART_sendByte            0x800'63cd   0x10  Code  Gb  UART.o [1]
+UART_sendString          0x800'6405   0x20  Code  Gb  UART.o [1]
+USART1_IRQHandler        0x800'5a01   0x44  Code  Gb  main.o [1]
+USART2_IRQHandler        0x800'5995   0x6c  Code  Gb  main.o [1]
+USART_INTERRUPT_DISABLE
+                         0x800'5e29    0xc  Code  Lc  LPWAN.o [1]
+USART_INTERRUPT_ENABLE   0x800'5e1d    0xc  Code  Lc  LPWAN.o [1]
+UsageFault_Handler       0x800'58bb    0x2  Code  Wk  cstartup_M.o [1]
+__aeabi_f2uiz            0x800'58bd         Code  Gb  FltToU32.o [3]
+__aeabi_fadd             0x800'5759         Code  Gb  FltAddSub.o [3]
+__aeabi_fdiv             0x800'5641         Code  Gb  FltDiv.o [3]
+__aeabi_memset           0x800'4685         Code  Gb  ABImemset.o [4]
+__aeabi_ui2f             0x800'5625         Code  Gb  U32ToFlt.o [3]
+__cmain                  0x800'6be1         Code  Gb  cmain.o [4]
+__disable_irq            0x800'6301    0x4  Code  Gb  UART.o [1]
+__enable_irq             0x800'5eb1    0x4  Code  Lc  CAN.o [1]
+__enable_irq             0x800'6305    0x4  Code  Gb  UART.o [1]
+__enable_irq_2           0x800'437d    0x4  Code  Gb  UART2.o [1]
+__exit                   0x800'6c15   0x14  Code  Gb  exit.o [5]
+__iar_Memset             0x800'4685         Code  Gb  ABImemset.o [4]
+__iar_Memset_word        0x800'468d         Code  Gb  ABImemset.o [4]
+__iar_data_init3         0x800'6ac5   0x18  Code  Gb  data_init.o [4]
+__iar_lz77_init_single3
+                         0x800'403f   0x7e  Code  Gb  lz77_init_single.o [4]
+__iar_program_start      0x800'6f51   0x10  Code  Gb  cstartup_M.o [1]
+__iar_unaligned_memcpy   0x800'46ed         Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_unaligned_memcpy4
+                         0x800'470d         Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_unaligned_memcpy8
+                         0x800'470d         Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_zero_init3         0x800'699d   0x38  Code  Gb  zero_init3.o [4]
+__low_level_init         0x800'6bff    0x4  Code  Gb  low_level_init.o [2]
+__set_MSP                0x800'5dfd    0x6  Code  Gb  main.o [1]
+__vector_table           0x800'3000   0xe0  Data  Gb  cstartup_M.o [1]
+_call_main               0x800'6bed         Code  Gb  cmain.o [4]
+_exit                    0x800'6c09         Code  Gb  cexit.o [4]
+check_Res               0x2000'097c    0x1  Data  Gb  A9G.o [1]
+convertToMaps            0x800'3db9   0x48  Code  Lc  A9G.o [1]
+data                    0x2000'06dc  0x1f4  Data  Gb  main.o [1]
+exit                     0x800'6c03    0x4  Code  Gb  exit.o [2]
+g_SysTick_Call_Back_Ptr
+                        0x2000'0978    0x4  Data  Lc  sys_timer.o [1]
+get_strFromEnd           0x800'3f19   0x52  Code  Lc  A9G.o [1]
+get_string               0x800'3edb   0x3e  Code  Lc  A9G.o [1]
+get_string               0x800'5c21   0x44  Code  Lc  main.o [1]
+gps_buffer              0x2000'08d0   0x64  Data  Gb  A9G.o [1]
+insert_string            0x800'3e2f   0xac  Code  Lc  A9G.o [1]
+ix                      0x2000'0980    0x1  Data  Gb  main.o [1]
+main                     0x800'58d9   0x82  Code  Gb  main.o [1]
+resetBuffer              0x800'3fbd   0x1a  Code  Lc  A9G.o [1]
+resetBuffer              0x800'5c65   0x1a  Code  Lc  main.o [1]
+resetNMEA                0x800'3fd7   0x20  Code  Lc  A9G.o [1]
+response_compare         0x800'3e01   0x2e  Code  Gb  A9G.o [1]
+strConnect               0x800'3f6b   0x52  Code  Lc  A9G.o [1]
+
+
+[1] = D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote Access\Dr. Reyad\STM32 Projects\IAR\Debugging\Shady\Shady3\A9G_Driver WS\A9G_Driver WS\Debug\Obj
+[2] = dl7M_tln.a
+[3] = m7M_tl.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  13'310 bytes of readonly  code memory
+   3'541 bytes of readonly  data memory
+   4'491 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

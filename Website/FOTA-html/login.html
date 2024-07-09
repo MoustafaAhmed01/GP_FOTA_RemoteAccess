@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>FOTA webiste/Login</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- icon image -->
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Dosis:400,600,700|Poppins:400,600,700&display=swap" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container">
+        <div class="header_nav">
+          <a class="navbar-brand brand_desktop" href="index.html">
+            <img src="images/logo.png" alt="" style="max-width: 100px; max-height: 80px; margin-top: -16%;"/>
+          </a>        
+          <div class="main_nav">
+            <div class="top_nav">
+            </div>
+            <div class="bottom_nav">
+              <nav class="navbar navbar-expand-lg custom_nav-container">
+                <a class="navbar-brand brand_mobile" href="index.html">
+                  <img src="images/logo.png" alt="" />
+                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+                    <ul class="navbar-nav" style="margin-top: -2.5%;">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="about.html"> About </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="login.html"> Login </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- info section -->
+    <div class="info_section" style="margin-top: 10%; margin-left: 20%;">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-10 ml-auto">
+            <div class="row info_main-row">
+              <div class="col-md-6 pr-0">
+                <!-- contact section -->
+                <section class="contact_section">
+                  <h2 style="color: white;">
+                    Login
+                  </h2>
+                  <form id="loginForm">
+                    <div>
+                      <input type="email" placeholder="Email" id="EMAIL_ID"/>
+                    </div>
+                    <div>
+                      <input type="password" placeholder="password" id="PASSWORD_ID"/>
+                    </div>
+                    <div class="d-flex">
+                      <button type="submit" style="box-shadow: 0px 0px 20px 10px white;">
+                        Login
+                      </button>
+                    </div>
+                  </form>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <section class=" footer_section ">
+    <div class="social_box"  style="justify-content: center; margin-top: 10%;">
+      <a href="#">
+        <img src="images/facebook.png" alt="">
+      </a>
+      <a href="#">
+        <img src="images/twitter.png" alt="">
+      </a>
+      <a href="#">
+        <img src="images/linkedin.png" alt="">
+      </a>
+      <a href="#">
+        <img src="images/instagram.png" alt="">
+      </a>
+      <a href="#">
+        <img src="images/youtube.png" alt="">
+      </a>
+    </div>
+    <p  style="text-align: center;">
+      &copy; 2023 All Rights Reserved. Design by
+      <a href="https://html.design/">Free Html Templates</a>
+    </p>
+  </section>
+
+  <!-- Include firebase liberary -->
+  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script>
+  <script>
+    // Initialize Firebase
+    const firebaseConfig = {
+            apiKey: "AIzaSyArnmIpYULfLdJzER8VaHOnLZnjOdaGy5c",
+            authDomain: "fota-436d5.firebaseapp.com",
+            databaseURL: "https://fota-436d5-default-rtdb.europe-west1.firebasedatabase.app",
+            projectId: "fota-436d5",
+            storageBucket: "fota-436d5.appspot.com",
+            messagingSenderId: "977872223100",
+            appId: "1:977872223100:web:2a0010a4919540b45ec2f9"
+        };
+    firebase.initializeApp(firebaseConfig);
+
+    // Login form submission
+    const loginForm = document.getElementById('loginForm');
+        loginForm.addEventListener('submit', e => {
+            e.preventDefault();
+            const email = document.getElementById('EMAIL_ID').value;
+            const password = document.getElementById('PASSWORD_ID').value;
+            firebase.auth().signInWithEmailAndPassword(email, password)
+                .then(userCredential => {
+                    // Redirect to car list page upon successful login
+                    // document.getElementById('PASSWORD_ID') = '';
+                    window.location.href = 'test.html';
+                })
+                .catch(error => {
+                    alert("Incorrect password");
+                    // alert(error.message);*/
+                    document.getElementById('PASSWORD_ID').value = '';
+                    // window.location.href = 'login.html';
+                });
+        });
+  </script>
+</body>
+</html>

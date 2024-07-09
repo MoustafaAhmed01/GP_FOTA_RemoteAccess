@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <title>CarList</title>
+
+  <style>
+    body{
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      display: flex;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+    }
+    .left {
+      flex: 1;
+      background-color: rgb(0, 217, 255);
+      padding: 20px;
+      overflow-y: auto;
+    }
+    .right {
+      font-family: fantasy;
+      flex: 2;
+      background-color: #f0f0f0;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .List-name{
+      background-color: red;
+      text-align: center;
+    }
+
+    .Number_of_cars{
+      background-color: blue;
+    }
+
+    .add_car{
+      background-color: bisque;
+      color: black;
+      margin:auto;
+    }
+
+    .NEW_SW{
+      background-color: aquamarine;
+      justify-content:baseline;
+    }
+
+    .add-car-Form{
+        background-color:cadetblue;
+    }
+
+    .add-car-button{
+      background-color: brown;
+    }
+
+    .add_new_vehicle_header{
+      background-color: beige;
+    }
+
+    .upload_button{
+      size: 50%;
+      margin-left: 6% ;
+      margin-top: 2%;
+    }
+
+  </style>
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+          <div class="List-name">
+            <h1>CAR LIST</h1>
+          </div>
+          <div>
+            <h2 class="Number_of_cars" id="carnumber">Number of cars: 0</h2>
+            <ul id="CarList"></ul>
+            <div class="add-car-Form">
+                <div class="add_new_vehicle_header">
+                  <h3>Add a new vehicle</h3>
+                </div>
+                <div id="form_container">
+                  <label for>Car name:</label>
+                  <input placeholder="Car name" type="text" id="Car_Name_id" style="margin-left: 3% " />
+                  <br>
+                  <label for>SW version: </label>
+                  <input placeholder="SW version" type="text" id="sw_version_id" style="margin-left: 0.4% "/>
+                  <br>
+                  <label for>Up to date: </label>
+                  <input placeholder="Up to date" type="text" id="UpToDate_id" style="margin-left: 2% "/>
+                  <br>
+                  <label for>File name: </label>
+                  <input placeholder="File name" type="text" id="Filename_id" style="margin-left: 2.6% "/>
+                  <br>
+                  <label for>Description: </label>
+                  <input placeholder="Description" type="text" id="Description_id" style="margin-left: 0.3% "/>
+                </div>
+
+                <div class="add-car-button">
+                  <br>
+                  <button type="submit" id="submit" onclick="Add_Car_To_FireBase()" style="margin-left: 44.5%;">Add</button>
+                </div>
+            </div>
+            <div class="NEW_SW">
+                <h2>Upload File to Firebase Storage</h2>
+                <input type="file" onchange="handleFileUpload(event)">
+                <br>
+                <button onclick="uploadFile()" class="upload_button">Upload</button>
+                <p id="uploadMessage"></p>
+            </div>
+    
+          </div>
+        </div>
+        <div class="right">
+          <h1>Welcome to FOTA team</h1>
+        </div>
+      </div>
+    
+      <!-- Firebase Application -->
+      <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+      <!-- Firebase Database -->
+      <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-database.js"></script>
+      <!-- Firebase Storage -->
+      <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-storage.js"></script>
+      <!-- Paho liberary for mqtt communication -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.2/mqttws31.min.js" type="text/javascript"></script>
+
+</body>
+
+<script>
+    /**************************************************************************/
+    /******************* Setting configrations for firebase *******************/
+    /**************************************************************************/
+    const firebaseConfig = {
+      apiKey: "AIzaSyArnmIpYULfLdJzER8VaHOnLZnjOdaGy5c",
+      authDomain: "fota-436d5.firebaseapp.com",
+      databaseURL: "https://fota-436d5-default-rtdb.europe-west1.firebasedatabase.app",
+      projectId: "fota-436d5",
+      storageBucket: "fota-436d5.appspot.com",
+      messagingSenderId: "977872223100",
+      appId: "1:977872223100:web:2a0010a4919540b45ec2f9"
+    };
+    /* Initializing the Firebase application */
+    firebase.initializeApp(firebaseConfig);
+    /* Initializing the Firebase storage */
+    const storage = firebase.storage();
+    /* Initializing the Firebase database */
+    const database = firebase.database();
+
+    /**************************************************************************/
+    /********************* Setting configrations for MQTT *********************/    
+    /**************************************************************************/
+    /* setting the broker of MQTT to MQQTx */
+    var client = new Paho.MQTT.Client("broker.emqx.io", Number(8083), "Website"); 
+    
+    /* flag used to check is the client is already connected or not */
+    var isConnected_flag = false;
+    
+    /* Function used to send the required message to mqtt broker */
+    function Send_Message_MQTT()
+    {
+      /* set the callback handlers */
+      client.onConnectionLost = onConnectionLost;
+      client.onMessageArrived = onMessageArrived;
+      
+      /* connect the client to the broker */
+      var connectOptions = {
+        onSuccess: onConnect,
+        userName: "ahmedhatem",
+        password: "123456"
+      };
+      
+      /* Each time you send a message check if you are connected or not 
+      if you are not connected then connect else don't */
+      if (isConnected_flag == false)
+      {
+        client.connect(connectOptions);
+      }
+      else
+      {
+        on_Resend();
+      }
+    }
+    
+    // called when the client connects
+    function onConnect() 
+    {
+      /* subscribe to a topic */
+      client.subscribe("New_Software");            
+      // console.log("Connected");
+      isConnected_flag = true;
+      // publish a message
+      message = new Paho.MQTT.Message("New update is uploaded on the server");
+      // console.log(Topic.value);
+      message.destinationName = "New_Software";
+      client.send(message);       
+      
+    }
+    
+    function on_Resend()
+    {
+      // client.subscribe(Topic.value); 
+      message = new Paho.MQTT.Message("New update is uploaded on the server");
+      // console.log(Topic.value);
+      message.destinationName = "New_Software";
+      client.send(message);
+    }
+    
+    // called when the client loses its connection
+    function onConnectionLost(responseObject) {
+      // Connect the client, using MQTT 3.1
+      client.connect({
+        onSuccess: onConnect, 
+        mqttVersion: 3
+      });
+      if (responseObject.errorCode !== 0) {
+        console.log("Connection lost: " + responseObject);
+      }
+    }
+    
+    // called when a message arrives
+    function onMessageArrived(message) {
+      console.log("Message received: " + message.payloadString);
+    }
+    /**************************************************************************/   
+    
+    function updateCarCount() 
+    {
+        // Count the number of children under "Car_List" path
+        database.ref("Car_List").once('value', function(snapshot) {
+        // Get the number of children
+        var numChildren = snapshot.numChildren();
+        console.log("Number of children:", numChildren);
+        });
+    }
+
+    function displayCarList() 
+    {
+        // Retrieve and display all the content under "Car_List" path
+        database.ref("Car_List").once("value").then(snapshot => {
+            const carList = document.getElementById("CarList");
+            carList.innerHTML = ""; // Clear previous content
+
+            snapshot.forEach(childSnapshot => {
+                const carData = childSnapshot.val();
+                const carName = carData.name;
+                const listItem = document.createElement("li");
+                listItem.textContent = carName;
+                carList.appendChild(listItem);
+            });
+        }).catch(error => {
+            console.error("Error getting car list from Firebase:", error);
+        });
+    }
+
+    function Add_Car_To_FireBase() 
+    {
+      var Car_Name = document.getElementById('Car_Name_id').value;
+      var SW_Version = document.getElementById('sw_version_id').value;
+      var UpToDate = document.getElementById('UpToDate_id').value;
+      var Filename = document.getElementById('Filename_id').value;
+      var Description = document.getElementById('Description_id').value;
+
+
+      // Set the software version and update status directly under the car name
+      database.ref('CAR_LIST/' + Car_Name).set({
+          SW_Version: SW_Version,
+          UpToDate: UpToDate,
+          Filename: Filename,
+          Description: Description         
+      })
+      .then(() => {
+        document.getElementById('Car_Name_id').value = '';
+        document.getElementById('sw_version_id').value = '';
+        document.getElementById('UpToDate_id').value = '';
+        document.getElementById('Filename_id').value = '';
+        document.getElementById('Description_id').value = '';
+
+
+        alert('Vehicle is added successfully.');
+      })
+      .catch((error) => {
+          console.error('Error adding car:', error);
+      });
+
+      // document.getElementById('Car_Name_id').value = '';
+    }
+
+    /**************************************************************************/
+    /************************ Files uploading functions ***********************/
+    /**************************************************************************/
+    function handleFileUpload(event) 
+    {
+        window.selectedFile = event.target.files[0];
+    }
+
+    function uploadFile() 
+    {
+        const file = window.selectedFile;
+        if (!file) {
+            console.error('No file selected.');
+            return;
+        }
+
+        const storageRef = storage.ref();
+        const uploadTask = storageRef.child(file.name).put(file);
+
+        uploadTask.on('state_changed',
+        (snapshot) => {
+        // Observe state change events such as progress, pause, and resume
+        // Get task progress, including the number of bytes uploaded and the total number of bytes to be uploaded
+        const progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+        console.log('Upload is ' + progress + '% done');
+        },
+        (error) => {
+        // Handle unsuccessful uploads
+        console.error(error);
+        },
+        () => {
+        // Handle successful uploads on complete
+        uploadTask.snapshot.ref.getDownloadURL().then((downloadURL) => {
+            console.log('File available at', downloadURL);
+            document.getElementById('uploadMessage').innerText = 'File successfully uploaded!';
+        });
+        }
+        );
+        Send_Message_MQTT();
+    }
+    /**************************************************************************/
+</script>
+</html>

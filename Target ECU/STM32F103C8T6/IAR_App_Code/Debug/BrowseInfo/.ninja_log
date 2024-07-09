@@ -1,0 +1,435 @@
+# ninja log v5
+699	881	7295169060000000	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/DMA.xcl	87fb2374286a04c4
+470	615	7295169060000000	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/Dio.xcl	99f18f958b7538d8
+3	67	7419716710479457	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/cstartup_M.pbi	530c8f5564a44a4a
+1544	1682	7295169076975206	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/Delay.pbi	31f8202358ec4d6b
+2	288	7295169060000000	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/cstartup_M.xcl	38671aa3589debc8
+1802	1932	7295169079474609	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/Dma_PBcfg.pbi	4ff9f54af93d6f20
+9	352	7295169060000000	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/Delay.xcl	44f331f80ae0bc
+301	455	7295169060000000	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.xcl	482bfd9bf0d9ae79
+362	525	7295169060000000	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/Det.xcl	5ef277fca5d54c3f
+537	689	7295169060000000	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/Dio_PBcfg.xcl	7a7964f60c010eec
+626	861	7295169060000000	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/Dma_PBcfg.xcl	fdbea5dac661d4ff
+876	1089	7295169070000000	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/main.xcl	6896cb8229d1ecdc
+1176	1330	7295169070000000	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/UART.xcl	f9f6d4a7fdc58aae
+896	1114	7295169070000000	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/sys_timer.xcl	65a02610d9ca7d78
+2	575	7307675170000000	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/sys_timerPBcfg.xcl	34527f7f07ea2ceb
+7	176	7419714645699236	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbi	7810e1b11cab3804
+2	1673	7300479710000000	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/Timers.xcl	3b9507a041d15d87
+1128	1274	7295169070000000	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/PLL.xcl	17faf4c10868f92b
+1345	1532	7295169070000000	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/Port_PBcfg.xcl	279f01fb0ac2c8e6
+1285	1452	7295169070000000	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/Port.xcl	5d6641df24f58d44
+138	273	7414683964845154	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/DMA.pbi	158ead2b41b0c0a1
+1689	1793	7295169078068676	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/Dio_PBcfg.pbi	235ac39f5da6642b
+1717	1836	7295169078537319	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/Dio.pbi	9cf744d9ddcf1bca
+147	235	7308574744840010	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/Timers_PBCfg.pbi	468f197831e0d68a
+2	68	7420747766101410	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/main.pbi	6cebdcdea10747b
+1940	2028	7295169080411875	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/Det.pbi	ad95193ce39169f1
+434	516	7404707073112975	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/sys_timer.pbi	c0794a1fc196b742
+3	106	7419717564256525	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G_part4.pbi	eeb998252061899f
+314	493	7404707767083322	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/Port.pbi	b2b58f47fc49965a
+202	2239	7311162200000000	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/Timer_PBcfg.xcl	5bfdc18aa728ef0e
+333	431	7404707072213149	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/PLL.pbi	8834208d23ffe1f4
+180	283	7404709872434873	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/UART.pbi	8d306e2a47abf57d
+2	2201	7311162200000000	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/Timer.xcl	2638b0d4c5002f48
+76	894	7400117450000000	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/UART2.xcl	7bdb56852db8b1ce
+179	242	7404707764533769	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/Port_PBcfg.pbi	608cd5475be3a7ce
+419	515	7414683967308089	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G_part1.pbi	d41ed8b93d13f944
+16	99	7414683963115860	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/DMA_PBcfg.pbi	39272df67c8a2640
+497	518	7404707767383253	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	3573de8a5dc1f238
+71	119	7419716711006135	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G_part0.pbi	86803069dba58e5a
+71	136	7420747766851275	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G_part2.pbi	1f5084266b6b3471
+2263	2403	7311162210353115	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/Timer_PBcfg.pbi	43fb8ed0466ef234
+140	189	7420747767301559	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	c21cf7108ed40b89
+99	1663	7300479710000000	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/Timers_PBCfg.xcl	de67d50449891e7a
+1	3565	7307547290000000	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/LCD.xcl	e6eead9ec973e023
+194	777	7420747772550259	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	201b6b858650bcd9
+7	143	7308574743902731	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/Timers.pbi	a804d05d84997072
+3570	3705	7307547294753957	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/LCD.pbi	966c74a046be27eb
+1	1319	7416823620000000	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/TIM8_PWM.xcl	376d2c6453474836
+207	321	7404707071163322	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/sys_timerPBcfg.pbi	d0c899898d2d706a
+2227	2390	7311162210197554	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/Timer.pbi	348957df98777687
+6	1399	7319876440000000	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/DMA_PBcfg.xcl	fde8a56ebf4a7309
+268	366	7414683965708084	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/LPWAN.pbi	85e8614fd34bcef4
+2	907	7400117450000000	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/LPWAN.xcl	36d61fb909b0e539
+91	181	7404710492814987	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/UART2.pbi	18a214114f43789b
+2	144	7416834252092582	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/TIM8_PWM.pbi	e25af853e33187a3
+2	57	7420748026053764	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/main.pbi	6cebdcdea10747b
+60	82	7420748026354054	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G_part2.pbi	1f5084266b6b3471
+87	123	7420748026803623	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	c21cf7108ed40b89
+130	705	7420748031752758	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	201b6b858650bcd9
+2	66	7420748083793513	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/main.pbi	6cebdcdea10747b
+69	94	7420748084093488	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G_part2.pbi	1f5084266b6b3471
+100	140	7420748084543379	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	c21cf7108ed40b89
+146	697	7420748089642870	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	201b6b858650bcd9
+5	92	7420928361662833	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/main.pbi	6cebdcdea10747b
+95	219	7420928362942733	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G_part2.pbi	1f5084266b6b3471
+236	402	7420928364821281	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	c21cf7108ed40b89
+424	1533	7420928375495386	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	201b6b858650bcd9
+4	155	7421169236245335	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/main.pbi	6cebdcdea10747b
+162	303	7421169237701065	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G_part2.pbi	1f5084266b6b3471
+312	424	7421169238912730	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	c21cf7108ed40b89
+440	1344	7421169247445144	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	201b6b858650bcd9
+5	146	7421169658640851	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/main.pbi	6cebdcdea10747b
+149	240	7421169659660385	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G_part2.pbi	1f5084266b6b3471
+250	291	7421169660239432	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	c21cf7108ed40b89
+299	1309	7421169669752460	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	201b6b858650bcd9
+4	90	7421169722363461	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/main.pbi	6cebdcdea10747b
+95	135	7421169722892921	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G_part2.pbi	1f5084266b6b3471
+148	215	7421169723641075	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	c21cf7108ed40b89
+221	1149	7421169732279584	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	201b6b858650bcd9
+5	116	7421170551592763	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbi	7810e1b11cab3804
+120	279	7421170553087481	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G_part0.pbi	86803069dba58e5a
+288	366	7421170554120534	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	c21cf7108ed40b89
+374	2590	7421170566744224	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	201b6b858650bcd9
+4	103	7421170882623705	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbi	7810e1b11cab3804
+107	131	7421170882913662	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G_part0.pbi	86803069dba58e5a
+138	178	7421170883359201	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	c21cf7108ed40b89
+184	1498	7421170893058798	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	201b6b858650bcd9
+5	127	7421171050662991	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbi	7810e1b11cab3804
+131	164	7421171051046140	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G_part0.pbi	86803069dba58e5a
+172	230	7421171051700002	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	c21cf7108ed40b89
+238	993	7421171058537308	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	201b6b858650bcd9
+5	141	7421171774010789	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbi	7810e1b11cab3804
+148	178	7421171774479720	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G_part0.pbi	86803069dba58e5a
+187	271	7421171775391223	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	c21cf7108ed40b89
+282	1205	7421171784111588	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	201b6b858650bcd9
+3	102	7421172347777176	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbi	7810e1b11cab3804
+107	136	7421172348124025	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G_part0.pbi	86803069dba58e5a
+143	182	7421172348567058	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	c21cf7108ed40b89
+190	1056	7421172356578877	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	201b6b858650bcd9
+5	146	7421172460273197	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbi	7810e1b11cab3804
+151	182	7421172460758612	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G_part0.pbi	86803069dba58e5a
+187	246	7421172461375515	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	c21cf7108ed40b89
+253	1035	7421172468384515	D:/Shady/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	201b6b858650bcd9
+6	110	7421507020000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/Delay.xcl	2c208ad9b849e918
+15	115	7421507020000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/DMA_PBcfg.xcl	192a5ad66eba63fe
+11	122	7421507020000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/DMA.xcl	fed1dc465f6c51d
+1	127	7421507020000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/Det.xcl	38521b32cd05e040
+23	132	7421507020000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/LPWAN.xcl	31d6d0cdf72da01f
+19	138	7421507020000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/LCD.xcl	d28f2d71a8fa1d1e
+111	214	7421507020000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/Dio_PBcfg.xcl	9a67ce69d09f960f
+129	230	7421507020000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.xcl	2f8e0ba5284529ad
+123	236	7421507020000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/sys_timerPBcfg.xcl	51d19638518954a9
+134	242	7421507020000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/sys_timer.xcl	f6fafbd829a59de8
+117	247	7421507020000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/Dio.xcl	33d23f1ad8f1232
+140	253	7421507020000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/Port_PBcfg.xcl	9645fe9af5f0850f
+216	321	7421507020000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/Port.xcl	913fbb0c15cb64f9
+232	326	7421507020000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/PLL.xcl	f86ce53fa346aca2
+237	332	7421507020000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.xcl	432d6246831b0731
+243	337	7421507020000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/cstartup_M.xcl	d75057e9870125a9
+255	343	7421507029945623	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/Delay.pbi	70c1e79076fd96fe
+249	377	7421507030303080	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/Dio.pbi	526a854b2c1cad6e
+328	384	7421507030343302	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/Det.pbi	7a6276d10a297442
+339	389	7421507030363286	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/cstartup_M.pbi	e2005c93fc353793
+322	413	7421507030000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/UART.xcl	ea01cb22578ec520
+345	428	7421507030000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/UART2.xcl	e31e8ae5d7ca93e8
+380	433	7421507030845140	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/PLL.pbi	a027120170b011e7
+391	442	7421507030961968	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/DMA_PBcfg.pbi	cb0dae91e0de353a
+334	465	7421507031192656	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbi	2eddcb9561c290e9
+430	489	7421507031424941	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/DMA.pbi	4186a8331df7107b
+434	497	7421507031507917	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/LPWAN.pbi	c8cd786e6a5db9e0
+443	514	7421507031678788	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	a25164f0cfd1dffd
+466	519	7421507031708719	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/UART.pbi	70b0d73d4fbfb236
+490	541	7421507031943109	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/Port_PBcfg.pbi	121111e31ca83363
+498	546	7421507031963109	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/sys_timer.pbi	bde236ca9a380d37
+385	552	7421507032038110	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/Dio_PBcfg.pbi	a4abf02db86a10ea
+516	568	7421507032220294	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/sys_timerPBcfg.pbi	7395aed638a33f98
+548	570	7421507032240440	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part0.pbi	ba74d3d807440817
+554	571	7421507032250509	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part1.pbi	2e4902037cdd5ca3
+415	577	7421507032303851	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/LCD.pbi	7dba96008b076d36
+578	595	7421507032500765	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part2.pbi	c0bb0025079a9086
+542	599	7421507032535776	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/UART2.pbi	fb76b03ea2db28e2
+521	605	7421507032555863	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/Port.pbi	7cef49f3ac4f3b39
+601	614	7421507032693103	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part4.pbi	7ef29b9f7421a17
+607	622	7421507032774670	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	3b218071ec28e340
+623	648	7421507033034852	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	ac2ad21182b39cf6
+649	951	7421507035900543	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	174e5ce24015490e
+16	62	7421511058865771	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/PLL.pbi	a027120170b011e7
+10	68	7421511058915639	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/DMA_PBcfg.pbi	cb0dae91e0de353a
+7	74	7421511058940972	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/DMA.pbi	4186a8331df7107b
+13	80	7421511058940972	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/LPWAN.pbi	c8cd786e6a5db9e0
+1	85	7421511059041719	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbi	2eddcb9561c290e9
+4	91	7421511059093420	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	a25164f0cfd1dffd
+92	112	7421511059359875	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part1.pbi	2e4902037cdd5ca3
+70	121	7421511059450018	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/sys_timerPBcfg.pbi	7395aed638a33f98
+81	132	7421511059556995	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/sys_timer.pbi	bde236ca9a380d37
+113	134	7421511059567031	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part0.pbi	ba74d3d807440817
+76	137	7421511059601535	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/UART.pbi	70b0d73d4fbfb236
+63	140	7421511059631472	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/Port.pbi	7cef49f3ac4f3b39
+87	145	7421511059656568	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/UART2.pbi	fb76b03ea2db28e2
+123	150	7421511059666651	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part2.pbi	c0bb0025079a9086
+141	158	7421511059824255	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	3b218071ec28e340
+147	159	7421511059824255	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part4.pbi	7ef29b9f7421a17
+160	185	7421511060094887	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	ac2ad21182b39cf6
+186	478	7421511062870023	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	174e5ce24015490e
+0	28	7421511164240308	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/cstartup_M.pbi	e2005c93fc353793
+29	44	7421511164413514	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part0.pbi	ba74d3d807440817
+4	65	7421511164612926	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	a25164f0cfd1dffd
+66	84	7421511164810386	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part2.pbi	c0bb0025079a9086
+85	114	7421511165114234	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	ac2ad21182b39cf6
+116	448	7421511168274559	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	174e5ce24015490e
+17	31	7421511737111216	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part1.pbi	d123a9f0422e306e
+13	33	7421511737121215	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part2.pbi	8c3b05bdc272142e
+20	37	7421511737171356	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part4.pbi	10b440fffb81d18e
+1	84	7421511730000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/CAN_PBCFG.xcl	2d2fa13e2d914569
+5	89	7421511730000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/CAN.xcl	6f34d958e00c0671
+9	95	7421511737672223	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	a25164f0cfd1dffd
+97	116	7421511737963090	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	41e5554851c06f3b
+86	127	7421511738068136	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/CAN_PBCFG.pbi	a374d272b0059eda
+91	139	7421511738180817	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/CAN.pbi	b7ea12991e4c3431
+140	159	7421511738395681	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part0.pbi	4470eb648d17b47c
+161	190	7421511738697872	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	ac2ad21182b39cf6
+191	539	7421511742027613	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	174e5ce24015490e
+1	63	7421512898990591	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	a25164f0cfd1dffd
+64	87	7421512899231151	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	41e5554851c06f3b
+88	121	7421512899569705	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	ac2ad21182b39cf6
+123	459	7421512902790917	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	174e5ce24015490e
+0	34	7421514009502360	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/Port_PBcfg.pbi	121111e31ca83363
+35	55	7421514009717993	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	41e5554851c06f3b
+57	87	7421514010045466	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	ac2ad21182b39cf6
+89	427	7421514013280261	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	174e5ce24015490e
+0	121	7421525508082373	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	a25164f0cfd1dffd
+124	164	7421525508523372	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	41e5554851c06f3b
+167	218	7421525509057831	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	ac2ad21182b39cf6
+222	819	7421525514736418	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	174e5ce24015490e
+2	343	7421528849468271	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	a25164f0cfd1dffd
+346	459	7421528850647560	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	41e5554851c06f3b
+461	549	7421528851546025	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	ac2ad21182b39cf6
+552	1406	7421528859805035	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	174e5ce24015490e
+1	115	7421530626827850	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	a25164f0cfd1dffd
+118	153	7421530627228005	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	41e5554851c06f3b
+156	206	7421530627754661	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	ac2ad21182b39cf6
+209	836	7421530633761695	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	174e5ce24015490e
+1	72	7421566810557085	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	a25164f0cfd1dffd
+74	96	7421566810802204	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	41e5554851c06f3b
+97	129	7421566811135579	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	ac2ad21182b39cf6
+131	471	7421566814355464	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	174e5ce24015490e
+0	63	7421567720209101	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	a25164f0cfd1dffd
+64	84	7421567720431492	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	41e5554851c06f3b
+86	116	7421567720741897	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	ac2ad21182b39cf6
+1	329	7421567776104476	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	174e5ce24015490e
+0	69	7421720237124838	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	a25164f0cfd1dffd
+70	94	7421720237386833	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	41e5554851c06f3b
+95	128	7421720237718903	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	ac2ad21182b39cf6
+129	552	7421720241774530	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	174e5ce24015490e
+0	89	7421781710700494	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	a25164f0cfd1dffd
+92	137	7421781711169077	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	41e5554851c06f3b
+140	172	7421781711637444	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	ac2ad21182b39cf6
+173	630	7421781716011725	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	174e5ce24015490e
+1	58	7421782371823016	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	a25164f0cfd1dffd
+59	79	7421782371978936	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	41e5554851c06f3b
+81	111	7421782372447870	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	ac2ad21182b39cf6
+112	441	7421782375572173	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	174e5ce24015490e
+0	61	7421800181379342	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbi	2eddcb9561c290e9
+63	100	7421800181847673	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part0.pbi	4470eb648d17b47c
+102	133	7421800182160097	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	ac2ad21182b39cf6
+134	484	7421800185440585	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	174e5ce24015490e
+1	54	7421800538597153	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbi	2eddcb9561c290e9
+56	74	7421800538752996	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part0.pbi	4470eb648d17b47c
+76	106	7421800539065423	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	ac2ad21182b39cf6
+108	428	7421800542189999	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	174e5ce24015490e
+0	61	7421801247315931	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	a25164f0cfd1dffd
+63	85	7421801247628361	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	41e5554851c06f3b
+86	117	7421801247940784	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	ac2ad21182b39cf6
+119	455	7421801251221273	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	174e5ce24015490e
+0	58	7421801553671261	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	a25164f0cfd1dffd
+60	79	7421801553827471	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	41e5554851c06f3b
+81	112	7421801554296425	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	ac2ad21182b39cf6
+114	444	7421801557264181	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	174e5ce24015490e
+0	29	7421826192027116	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/cstartup_M.pbi	e2005c93fc353793
+31	51	7421826192240670	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part0.pbi	4470eb648d17b47c
+53	86	7421826192567944	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	ac2ad21182b39cf6
+87	436	7421826195927849	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady2/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	174e5ce24015490e
+1	144	7421826540000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/DMA.xcl	1e3b088fe2837b4
+39	152	7421826540000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/Dio_PBcfg.xcl	429cd30bbcee9717
+43	157	7421826540000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/DMA_PBcfg.xcl	4626cf20b1d5f8b0
+29	163	7421826540000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/Dio.xcl	73162e8a3153ffc7
+34	168	7421826540000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/Delay.xcl	282d7fe686baf6cc
+49	174	7421826540000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/Det.xcl	db207adb425cd05
+146	241	7421826540000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.xcl	9f9585125266f51a
+154	257	7421826540000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/PLL.xcl	ea670247e92ae767
+164	264	7421826540000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/Port.xcl	804ad26938eca9c1
+159	271	7421826540000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/LPWAN.xcl	8b495786a77d87b2
+175	276	7421826540000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/LCD.xcl	f0ffba5b860bab4a
+170	282	7421826540000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/Port_PBcfg.xcl	bf6894654707135c
+242	346	7421826540000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/UART2.xcl	df735c1b01a889e6
+258	352	7421826540000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/sys_timer.xcl	3d5443097d3ea442
+265	358	7421826540000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/sys_timerPBcfg.xcl	7f178ca5406593cc
+272	366	7421826540000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/UART.xcl	ecf641b53ff2494b
+283	376	7421826540000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/cstartup_M.xcl	689738205aa3bc76
+278	381	7421826540000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.xcl	afe5439e058f3e1a
+347	430	7421826540000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/CAN_PBCFG.xcl	c2868c5884c7d14d
+378	436	7421826549861087	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/Dio_PBcfg.pbi	ccb26a0f78b60fae
+367	444	7421826550030748	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/DMA.pbi	5be7c16fd4f133ed
+353	449	7421826550000000	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/CAN.xcl	87a4760a1f5ebe1f
+383	463	7421826550205812	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbi	29fd16d0a70cfe1a
+445	480	7421826550414450	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/cstartup_M.pbi	76be731aadf17dc6
+432	486	7421826550486292	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/CAN_PBCFG.pbi	68a4cb1a1b74a8
+438	502	7421826550677486	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/DMA_PBcfg.pbi	36ffcf0ae749b941
+464	513	7421826550694637	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/Delay.pbi	c95b61cd91296a26
+450	522	7421826550884651	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/CAN.pbi	be28b9359160df09
+360	530	7421826550884651	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/Det.pbi	49fb9dd8b280c5db
+487	544	7421826551084377	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/sys_timer.pbi	64244ae753150b5b
+482	553	7421826551179546	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/Dio.pbi	7fd1c2cd38fce70b
+514	575	7421826551366747	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/LPWAN.pbi	cbcd031e27f81716
+532	580	7421826551441818	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/PLL.pbi	df47e01c84319be8
+524	601	7421826551608017	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/Port.pbi	85351265a54b0411
+545	618	7421826551845622	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	804607022d9d779b
+576	622	7421826551845622	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/sys_timerPBcfg.pbi	8c18970bc1ce8550
+602	627	7421826551909972	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part0.pbi	6a7f137ee8d7e865
+619	633	7421826551909972	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part1.pbi	aa3a4fbccacc6a36
+581	635	7421826551909972	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/UART.pbi	dba9d7ff6201b510
+504	667	7421826552223264	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/LCD.pbi	f513ce7d959adf4a
+623	674	7421826552382917	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/UART2.pbi	934a718923818d2a
+668	683	7421826552484960	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part2.pbi	1bc6b7e032e87ee6
+676	689	7421826552536476	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part4.pbi	89283985ecd1ba57
+554	700	7421826552536476	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/Port_PBcfg.pbi	60c6cae96f844342
+702	721	7421826552863866	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	f48acfd84c7981e2
+722	751	7421826553181475	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	9510349ea53eb439
+752	1092	7421826556361270	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	c8b3469c4d1e5b82
+0	63	7421827512640415	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	804607022d9d779b
+64	85	7421827512884947	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	f48acfd84c7981e2
+87	116	7421827513141605	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	9510349ea53eb439
+118	460	7421827516418888	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	c8b3469c4d1e5b82
+1	59	7421827668196469	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	804607022d9d779b
+61	83	7421827668434570	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	f48acfd84c7981e2
+84	115	7421827668752400	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	9510349ea53eb439
+117	461	7421827672027115	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	c8b3469c4d1e5b82
+0	55	7421828024953131	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbi	29fd16d0a70cfe1a
+57	75	7421828025194812	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part0.pbi	6a7f137ee8d7e865
+77	106	7421828025454055	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	9510349ea53eb439
+108	485	7421828029089298	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	c8b3469c4d1e5b82
+1	55	7421828482605170	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbi	29fd16d0a70cfe1a
+57	75	7421828482771507	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part0.pbi	6a7f137ee8d7e865
+77	106	7421828483102280	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	9510349ea53eb439
+107	436	7421828486267853	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	c8b3469c4d1e5b82
+0	54	7421828738445806	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbi	29fd16d0a70cfe1a
+56	75	7421828738706428	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part0.pbi	6a7f137ee8d7e865
+77	107	7421828739030464	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	9510349ea53eb439
+109	466	7421828742427434	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	c8b3469c4d1e5b82
+0	54	7421829648164007	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbi	29fd16d0a70cfe1a
+56	75	7421829648387164	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part0.pbi	6a7f137ee8d7e865
+77	107	7421829648724794	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	9510349ea53eb439
+109	450	7421829651967705	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	c8b3469c4d1e5b82
+1	54	7421834026748605	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbi	29fd16d0a70cfe1a
+56	74	7421834026908889	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part0.pbi	6a7f137ee8d7e865
+76	104	7421834027223966	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	9510349ea53eb439
+105	432	7421834030452134	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	c8b3469c4d1e5b82
+0	61	7421840315626798	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbi	29fd16d0a70cfe1a
+4	70	7421840315693731	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	804607022d9d779b
+65	85	7421840315886337	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part0.pbi	6a7f137ee8d7e865
+72	92	7421840315926449	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	f48acfd84c7981e2
+94	122	7421840316204852	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	9510349ea53eb439
+124	455	7421840319364318	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	c8b3469c4d1e5b82
+0	60	7421840722612808	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbi	29fd16d0a70cfe1a
+62	81	7421840722866047	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part0.pbi	6a7f137ee8d7e865
+4	167	7421840723723344	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	804607022d9d779b
+169	189	7421840723944059	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	f48acfd84c7981e2
+191	222	7421840724277041	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	9510349ea53eb439
+223	563	7421840727530411	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	c8b3469c4d1e5b82
+7	57	7421840829030295	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/CAN_PBCFG.pbi	68a4cb1a1b74a8
+10	68	7421840829155763	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/DMA.pbi	5be7c16fd4f133ed
+12	74	7421840829155763	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/DMA_PBcfg.pbi	36ffcf0ae749b941
+4	81	7421840829283548	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbi	29fd16d0a70cfe1a
+15	87	7421840829360629	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/Port.pbi	85351265a54b0411
+59	108	7421840829528991	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/sys_timer.pbi	64244ae753150b5b
+70	127	7421840829758417	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/LPWAN.pbi	cbcd031e27f81716
+82	133	7421840829758417	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/PLL.pbi	df47e01c84319be8
+89	144	7421840829918613	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/UART2.pbi	934a718923818d2a
+129	148	7421840829943658	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part2.pbi	1bc6b7e032e87ee6
+110	158	7421840830078915	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/UART.pbi	dba9d7ff6201b510
+0	160	7421840830078915	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/CAN.pbi	be28b9359160df09
+134	172	7421840830195370	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/sys_timerPBcfg.pbi	8c18970bc1ce8550
+161	180	7421840830277418	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part0.pbi	6a7f137ee8d7e865
+174	186	7421840830364055	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part4.pbi	89283985ecd1ba57
+75	244	7421840830863232	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	804607022d9d779b
+245	265	7421840831154756	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	f48acfd84c7981e2
+267	297	7421840831440026	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	9510349ea53eb439
+299	641	7421840834696591	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	c8b3469c4d1e5b82
+1	63	7421842545375322	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	804607022d9d779b
+65	87	7421842545643750	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	f48acfd84c7981e2
+88	127	7421842546063647	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	9510349ea53eb439
+128	483	7421842549444048	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	c8b3469c4d1e5b82
+1	62	7421843254203110	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	804607022d9d779b
+66	88	7421843254526301	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	f48acfd84c7981e2
+89	120	7421843254846566	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	9510349ea53eb439
+121	438	7421843257885869	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	c8b3469c4d1e5b82
+1	58	7421843610692304	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	804607022d9d779b
+61	81	7421843610922349	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	f48acfd84c7981e2
+83	113	7421843611242541	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	9510349ea53eb439
+114	454	7421843614498558	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	c8b3469c4d1e5b82
+1	60	7421843917045402	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	804607022d9d779b
+63	83	7421843917317728	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	f48acfd84c7981e2
+84	115	7421843917651768	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	9510349ea53eb439
+116	439	7421843920724131	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	c8b3469c4d1e5b82
+0	58	7421844022204604	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	804607022d9d779b
+60	82	7421844022406611	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	f48acfd84c7981e2
+83	112	7421844022724867	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	9510349ea53eb439
+113	433	7421844025816543	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	c8b3469c4d1e5b82
+0	63	7421844378715736	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	804607022d9d779b
+65	86	7421844378925523	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	f48acfd84c7981e2
+88	120	7421844379206618	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	9510349ea53eb439
+121	459	7421844382504881	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	c8b3469c4d1e5b82
+0	55	7421845338964532	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbi	29fd16d0a70cfe1a
+57	75	7421845339175660	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part0.pbi	6a7f137ee8d7e865
+76	106	7421845339429069	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	9510349ea53eb439
+108	439	7421845342594927	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	c8b3469c4d1e5b82
+1	61	7421847656336113	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	804607022d9d779b
+63	84	7421847656546041	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	f48acfd84c7981e2
+85	117	7421847656887305	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	9510349ea53eb439
+118	454	7421847660029667	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	c8b3469c4d1e5b82
+0	62	7421847811779909	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbi	29fd16d0a70cfe1a
+64	85	7421847812045887	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part0.pbi	6a7f137ee8d7e865
+86	118	7421847812366192	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	9510349ea53eb439
+119	475	7421847815746350	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	c8b3469c4d1e5b82
+0	59	7421848319403361	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	804607022d9d779b
+61	83	7421848319643885	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	f48acfd84c7981e2
+85	118	7421848319975713	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	9510349ea53eb439
+119	457	7421848323208063	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	c8b3469c4d1e5b82
+0	61	7421849985244380	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	804607022d9d779b
+64	85	7421849985450052	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	f48acfd84c7981e2
+86	116	7421849985765493	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	9510349ea53eb439
+117	440	7421849988864482	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	c8b3469c4d1e5b82
+1	72	7421863615029422	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbi	29fd16d0a70cfe1a
+4	83	7421863615206014	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	804607022d9d779b
+74	96	7421863615363200	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part0.pbi	6a7f137ee8d7e865
+85	109	7421863615483359	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	f48acfd84c7981e2
+110	141	7421863615803799	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	9510349ea53eb439
+142	475	7421863618983098	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	c8b3469c4d1e5b82
+1	77	7421864474807801	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	804607022d9d779b
+78	103	7421864475028555	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	f48acfd84c7981e2
+105	137	7421864475360722	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	9510349ea53eb439
+1	358	7421864529724143	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	c8b3469c4d1e5b82
+0	62	7421876245192381	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	804607022d9d779b
+64	87	7421876245529264	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	f48acfd84c7981e2
+88	119	7421876245858294	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	9510349ea53eb439
+120	473	7421876249205683	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	c8b3469c4d1e5b82
+1	53	7421884846194273	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbi	29fd16d0a70cfe1a
+55	74	7421884846360510	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part0.pbi	6a7f137ee8d7e865
+76	106	7421884846708311	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	9510349ea53eb439
+107	442	7421884849861845	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	c8b3469c4d1e5b82
+0	56	7421886006969103	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbi	29fd16d0a70cfe1a
+58	77	7421886007136029	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part0.pbi	6a7f137ee8d7e865
+79	109	7421886007470509	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	9510349ea53eb439
+111	440	7421886010565354	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	c8b3469c4d1e5b82
+0	53	7421887067299400	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbi	29fd16d0a70cfe1a
+56	74	7421887067524914	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part0.pbi	6a7f137ee8d7e865
+77	105	7421887067862046	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	9510349ea53eb439
+107	427	7421887070858786	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	c8b3469c4d1e5b82
+1	58	7421899187860588	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbi	29fd16d0a70cfe1a
+61	81	7421899188112803	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part0.pbi	6a7f137ee8d7e865
+83	113	7421899188423828	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	9510349ea53eb439
+114	443	7421899191529882	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	c8b3469c4d1e5b82
+0	58	7421899242807819	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbi	29fd16d0a70cfe1a
+60	79	7421899243024178	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part0.pbi	6a7f137ee8d7e865
+80	110	7421899243356674	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	9510349ea53eb439
+112	443	7421899246439207	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	c8b3469c4d1e5b82
+0	60	7421901060557556	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	804607022d9d779b
+63	83	7421901060806179	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	f48acfd84c7981e2
+84	113	7421901061114431	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	9510349ea53eb439
+114	463	7421901064403380	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	c8b3469c4d1e5b82
+0	63	7421901668694610	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/main.pbi	804607022d9d779b
+65	90	7421901668964713	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G_part3.pbi	f48acfd84c7981e2
+91	122	7421901669287918	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbd	9510349ea53eb439
+123	488	7421901672752239	D:/College files/EECE 4th Year/Graduation Project/FOTA&Vehicle Remote Access/Dr. Reyad/STM32 Projects/IAR/Debugging/Shady/Shady3/A9G_Driver WS/A9G_Driver WS/Debug/BrowseInfo/A9G.pbw	c8b3469c4d1e5b82

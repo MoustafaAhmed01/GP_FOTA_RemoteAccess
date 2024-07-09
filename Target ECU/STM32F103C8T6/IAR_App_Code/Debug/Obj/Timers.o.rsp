@@ -1,0 +1,1 @@
+﻿"D:\Shady\A9G_Driver WS\Timers.c" -o "D:\Shady\A9G_Driver WS\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol

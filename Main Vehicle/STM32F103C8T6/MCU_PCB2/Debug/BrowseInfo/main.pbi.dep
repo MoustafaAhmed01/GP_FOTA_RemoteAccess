@@ -1,0 +1,34 @@
+D:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\main.pbi: \
+  D:\Shady\MCU_2_Final\MCU_PCB2\main.c \
+  D:\Shady\MCU_2_Final\MCU_PCB2\Port.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\Std_Types.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\Platform_Types.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\Compiler.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\System_Config.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\Port_Cfg.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\Common_Macros.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\Dio.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\Dio_Cfg.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\UART.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\stm32f103c8t6_registers.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\UART_Regs.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\LCD.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\Delay.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\PLL.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\adc.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\ADC_Cfg.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\common_macros.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\std_types.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\potentiometer.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\GPT.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\Common_macros.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\Timer_Cfg.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\dc_motor.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\TIM8_PWM.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\TIM8_Registers.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\Fan.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\sys_timer.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\LPWAN.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\servo_motor.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\DMA.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\DMA_Cfg.h

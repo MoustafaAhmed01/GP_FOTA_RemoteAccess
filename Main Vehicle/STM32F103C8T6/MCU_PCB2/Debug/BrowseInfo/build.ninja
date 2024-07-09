@@ -1,0 +1,276 @@
+##IAR Ninja build file
+
+
+#Rules
+rule COMPILER_XCL
+  command = "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\XclFileGenerator.exe" $xclcommand -f "$rspfile_name"
+  description = IAR_NEW_TOOL+++COMPILER_XCL+++$in+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\XclFileGenerator.exe" $flags
+  rspfile = $rspfile_name
+  rspfile_content = $flags
+
+rule INDEXER
+  command = "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\SourceIndexer.exe" $flags
+  depfile = $out.dep
+  description = IAR_NEW_TOOL+++INDEXER+++$out+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\SourceIndexer.exe" $flags
+
+rule MAKEBROWSE
+  command = "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\makeBrowseData.exe" $flags
+  description = IAR_NEW_TOOL+++MAKEBROWSE+++$out+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\makeBrowseData.exe" $flags
+
+rule PDBLINK
+  command = "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\PbdLink.exe" $flags
+  description = IAR_NEW_TOOL+++PDBLINK+++$out+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\PbdLink.exe" $flags
+
+
+
+#Build steps
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\adc.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\Shady\MCU_2_Final\MCU_PCB2\adc.c -xcl_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\adc.xcl -macro_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\adc.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = D$:\Shady\MCU_2_Final\MCU_PCB2\adc.c -o D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\adc.tmp
+  rspfile_name = D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\adc.xcl.rsp
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\ADC_PBcfg.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\Shady\MCU_2_Final\MCU_PCB2\ADC_PBcfg.c -xcl_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\ADC_PBcfg.xcl -macro_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\ADC_PBcfg.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = D$:\Shady\MCU_2_Final\MCU_PCB2\ADC_PBcfg.c -o D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\ADC_PBcfg.tmp
+  rspfile_name = D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\ADC_PBcfg.xcl.rsp
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\cstartup_M.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\Shady\MCU_2_Final\MCU_PCB2\cstartup_M.c -xcl_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\cstartup_M.xcl -macro_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\cstartup_M.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = D$:\Shady\MCU_2_Final\MCU_PCB2\cstartup_M.c -o D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\cstartup_M.tmp
+  rspfile_name = D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\cstartup_M.xcl.rsp
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\dc_motor.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\Shady\MCU_2_Final\MCU_PCB2\dc_motor.c -xcl_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\dc_motor.xcl -macro_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\dc_motor.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = D$:\Shady\MCU_2_Final\MCU_PCB2\dc_motor.c -o D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\dc_motor.tmp
+  rspfile_name = D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\dc_motor.xcl.rsp
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Delay.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\Shady\MCU_2_Final\MCU_PCB2\Delay.c -xcl_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Delay.xcl -macro_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Delay.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = D$:\Shady\MCU_2_Final\MCU_PCB2\Delay.c -o D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Delay.tmp
+  rspfile_name = D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Delay.xcl.rsp
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Det.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\Shady\MCU_2_Final\MCU_PCB2\Det.c -xcl_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Det.xcl -macro_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Det.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = D$:\Shady\MCU_2_Final\MCU_PCB2\Det.c -o D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Det.tmp
+  rspfile_name = D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Det.xcl.rsp
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Dio.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\Shady\MCU_2_Final\MCU_PCB2\Dio.c -xcl_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Dio.xcl -macro_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Dio.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = D$:\Shady\MCU_2_Final\MCU_PCB2\Dio.c -o D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Dio.tmp
+  rspfile_name = D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Dio.xcl.rsp
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Dio_PBcfg.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\Shady\MCU_2_Final\MCU_PCB2\Dio_PBcfg.c -xcl_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Dio_PBcfg.xcl -macro_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Dio_PBcfg.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = D$:\Shady\MCU_2_Final\MCU_PCB2\Dio_PBcfg.c -o D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Dio_PBcfg.tmp
+  rspfile_name = D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Dio_PBcfg.xcl.rsp
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\DMA.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\Shady\MCU_2_Final\MCU_PCB2\DMA.c -xcl_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\DMA.xcl -macro_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\DMA.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = D$:\Shady\MCU_2_Final\MCU_PCB2\DMA.c -o D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\DMA.tmp
+  rspfile_name = D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\DMA.xcl.rsp
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\DMA_PBcfg.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\Shady\MCU_2_Final\MCU_PCB2\DMA_PBcfg.c -xcl_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\DMA_PBcfg.xcl -macro_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\DMA_PBcfg.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = D$:\Shady\MCU_2_Final\MCU_PCB2\DMA_PBcfg.c -o D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\DMA_PBcfg.tmp
+  rspfile_name = D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\DMA_PBcfg.xcl.rsp
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Fan.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\Shady\MCU_2_Final\MCU_PCB2\Fan.c -xcl_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Fan.xcl -macro_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Fan.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = D$:\Shady\MCU_2_Final\MCU_PCB2\Fan.c -o D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Fan.tmp
+  rspfile_name = D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Fan.xcl.rsp
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\GPT.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\Shady\MCU_2_Final\MCU_PCB2\GPT.c -xcl_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\GPT.xcl -macro_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\GPT.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = D$:\Shady\MCU_2_Final\MCU_PCB2\GPT.c -o D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\GPT.tmp
+  rspfile_name = D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\GPT.xcl.rsp
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\LCD.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\Shady\MCU_2_Final\MCU_PCB2\LCD.c -xcl_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\LCD.xcl -macro_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\LCD.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = D$:\Shady\MCU_2_Final\MCU_PCB2\LCD.c -o D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\LCD.tmp
+  rspfile_name = D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\LCD.xcl.rsp
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\LPWAN.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\Shady\MCU_2_Final\MCU_PCB2\LPWAN.c -xcl_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\LPWAN.xcl -macro_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\LPWAN.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = D$:\Shady\MCU_2_Final\MCU_PCB2\LPWAN.c -o D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\LPWAN.tmp
+  rspfile_name = D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\LPWAN.xcl.rsp
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\Shady\MCU_2_Final\MCU_PCB2\main.c -xcl_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\main.xcl -macro_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\main.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = D$:\Shady\MCU_2_Final\MCU_PCB2\main.c -o D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\main.tmp
+  rspfile_name = D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\main.xcl.rsp
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PLL.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\Shady\MCU_2_Final\MCU_PCB2\PLL.c -xcl_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PLL.xcl -macro_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PLL.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = D$:\Shady\MCU_2_Final\MCU_PCB2\PLL.c -o D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PLL.tmp
+  rspfile_name = D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PLL.xcl.rsp
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Port.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\Shady\MCU_2_Final\MCU_PCB2\Port.c -xcl_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Port.xcl -macro_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Port.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = D$:\Shady\MCU_2_Final\MCU_PCB2\Port.c -o D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Port.tmp
+  rspfile_name = D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Port.xcl.rsp
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Port_PBcfg.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\Shady\MCU_2_Final\MCU_PCB2\Port_PBcfg.c -xcl_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Port_PBcfg.xcl -macro_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Port_PBcfg.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = D$:\Shady\MCU_2_Final\MCU_PCB2\Port_PBcfg.c -o D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Port_PBcfg.tmp
+  rspfile_name = D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Port_PBcfg.xcl.rsp
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\potentiometer.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\Shady\MCU_2_Final\MCU_PCB2\potentiometer.c -xcl_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\potentiometer.xcl -macro_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\potentiometer.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = D$:\Shady\MCU_2_Final\MCU_PCB2\potentiometer.c -o D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\potentiometer.tmp
+  rspfile_name = D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\potentiometer.xcl.rsp
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\servo_motor.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\Shady\MCU_2_Final\MCU_PCB2\servo_motor.c -xcl_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\servo_motor.xcl -macro_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\servo_motor.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = D$:\Shady\MCU_2_Final\MCU_PCB2\servo_motor.c -o D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\servo_motor.tmp
+  rspfile_name = D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\servo_motor.xcl.rsp
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\sys_timer.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\Shady\MCU_2_Final\MCU_PCB2\sys_timer.c -xcl_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\sys_timer.xcl -macro_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\sys_timer.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = D$:\Shady\MCU_2_Final\MCU_PCB2\sys_timer.c -o D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\sys_timer.tmp
+  rspfile_name = D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\sys_timer.xcl.rsp
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\TIM8_PWM.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\Shady\MCU_2_Final\MCU_PCB2\TIM8_PWM.c -xcl_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\TIM8_PWM.xcl -macro_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\TIM8_PWM.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = D$:\Shady\MCU_2_Final\MCU_PCB2\TIM8_PWM.c -o D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\TIM8_PWM.tmp
+  rspfile_name = D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\TIM8_PWM.xcl.rsp
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\UART.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\Shady\MCU_2_Final\MCU_PCB2\UART.c -xcl_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\UART.xcl -macro_file D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\UART.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = D$:\Shady\MCU_2_Final\MCU_PCB2\UART.c -o D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\UART.tmp
+  rspfile_name = D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\UART.xcl.rsp
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\adc.pbi : INDEXER D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\adc.xcl |  $
+D$:\Shady\MCU_2_Final\MCU_PCB2\adc.c
+  flags = -out=D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\adc.pbi -f D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\adc.xcl
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\ADC_PBcfg.pbi : INDEXER D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\ADC_PBcfg.xcl |  $
+D$:\Shady\MCU_2_Final\MCU_PCB2\ADC_PBcfg.c
+  flags = -out=D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\ADC_PBcfg.pbi -f D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\ADC_PBcfg.xcl
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\cstartup_M.pbi : INDEXER D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\cstartup_M.xcl |  $
+D$:\Shady\MCU_2_Final\MCU_PCB2\cstartup_M.c
+  flags = -out=D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\cstartup_M.pbi -f D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\cstartup_M.xcl
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\dc_motor.pbi : INDEXER D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\dc_motor.xcl |  $
+D$:\Shady\MCU_2_Final\MCU_PCB2\dc_motor.c
+  flags = -out=D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\dc_motor.pbi -f D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\dc_motor.xcl
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Delay.pbi : INDEXER D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Delay.xcl |  $
+D$:\Shady\MCU_2_Final\MCU_PCB2\Delay.c
+  flags = -out=D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Delay.pbi -f D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Delay.xcl
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Det.pbi : INDEXER D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Det.xcl |  $
+D$:\Shady\MCU_2_Final\MCU_PCB2\Det.c
+  flags = -out=D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Det.pbi -f D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Det.xcl
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Dio.pbi : INDEXER D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Dio.xcl |  $
+D$:\Shady\MCU_2_Final\MCU_PCB2\Dio.c
+  flags = -out=D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Dio.pbi -f D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Dio.xcl
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Dio_PBcfg.pbi : INDEXER D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Dio_PBcfg.xcl |  $
+D$:\Shady\MCU_2_Final\MCU_PCB2\Dio_PBcfg.c
+  flags = -out=D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Dio_PBcfg.pbi -f D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Dio_PBcfg.xcl
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\DMA.pbi : INDEXER D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\DMA.xcl |  $
+D$:\Shady\MCU_2_Final\MCU_PCB2\DMA.c
+  flags = -out=D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\DMA.pbi -f D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\DMA.xcl
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\DMA_PBcfg.pbi : INDEXER D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\DMA_PBcfg.xcl |  $
+D$:\Shady\MCU_2_Final\MCU_PCB2\DMA_PBcfg.c
+  flags = -out=D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\DMA_PBcfg.pbi -f D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\DMA_PBcfg.xcl
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Fan.pbi : INDEXER D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Fan.xcl |  $
+D$:\Shady\MCU_2_Final\MCU_PCB2\Fan.c
+  flags = -out=D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Fan.pbi -f D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Fan.xcl
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\GPT.pbi : INDEXER D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\GPT.xcl |  $
+D$:\Shady\MCU_2_Final\MCU_PCB2\GPT.c
+  flags = -out=D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\GPT.pbi -f D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\GPT.xcl
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\LCD.pbi : INDEXER D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\LCD.xcl |  $
+D$:\Shady\MCU_2_Final\MCU_PCB2\LCD.c
+  flags = -out=D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\LCD.pbi -f D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\LCD.xcl
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\LPWAN.pbi : INDEXER D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\LPWAN.xcl |  $
+D$:\Shady\MCU_2_Final\MCU_PCB2\LPWAN.c
+  flags = -out=D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\LPWAN.pbi -f D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\LPWAN.xcl
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\main.pbi : INDEXER D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\main.xcl |  $
+D$:\Shady\MCU_2_Final\MCU_PCB2\main.c
+  flags = -out=D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\main.pbi -f D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\main.xcl
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PLL.pbi : INDEXER D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PLL.xcl |  $
+D$:\Shady\MCU_2_Final\MCU_PCB2\PLL.c
+  flags = -out=D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PLL.pbi -f D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PLL.xcl
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Port.pbi : INDEXER D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Port.xcl |  $
+D$:\Shady\MCU_2_Final\MCU_PCB2\Port.c
+  flags = -out=D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Port.pbi -f D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Port.xcl
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Port_PBcfg.pbi : INDEXER D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Port_PBcfg.xcl |  $
+D$:\Shady\MCU_2_Final\MCU_PCB2\Port_PBcfg.c
+  flags = -out=D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Port_PBcfg.pbi -f D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Port_PBcfg.xcl
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\potentiometer.pbi : INDEXER D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\potentiometer.xcl |  $
+D$:\Shady\MCU_2_Final\MCU_PCB2\potentiometer.c
+  flags = -out=D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\potentiometer.pbi -f D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\potentiometer.xcl
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\servo_motor.pbi : INDEXER D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\servo_motor.xcl |  $
+D$:\Shady\MCU_2_Final\MCU_PCB2\servo_motor.c
+  flags = -out=D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\servo_motor.pbi -f D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\servo_motor.xcl
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\sys_timer.pbi : INDEXER D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\sys_timer.xcl |  $
+D$:\Shady\MCU_2_Final\MCU_PCB2\sys_timer.c
+  flags = -out=D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\sys_timer.pbi -f D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\sys_timer.xcl
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\TIM8_PWM.pbi : INDEXER D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\TIM8_PWM.xcl |  $
+D$:\Shady\MCU_2_Final\MCU_PCB2\TIM8_PWM.c
+  flags = -out=D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\TIM8_PWM.pbi -f D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\TIM8_PWM.xcl
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\UART.pbi : INDEXER D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\UART.xcl |  $
+D$:\Shady\MCU_2_Final\MCU_PCB2\UART.c
+  flags = -out=D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\UART.pbi -f D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\UART.xcl
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PCB_2.pbw : MAKEBROWSE D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PCB_2.pbd
+  flags = D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PCB_2.pbd -output D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PCB_2.pbw
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PCB_2_part0.pbi : PDBLINK D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\adc.pbi |  $
+D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\ADC_PBcfg.pbi $
+D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\cstartup_M.pbi $
+D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\dc_motor.pbi $
+D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Delay.pbi
+  flags = -M D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PCB_2_part0.pbi D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\adc.pbi D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\ADC_PBcfg.pbi D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\cstartup_M.pbi D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\dc_motor.pbi D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Delay.pbi
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PCB_2_part1.pbi : PDBLINK D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Det.pbi |  $
+D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Dio.pbi $
+D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Dio_PBcfg.pbi $
+D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\DMA.pbi $
+D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\DMA_PBcfg.pbi
+  flags = -M D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PCB_2_part1.pbi D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Det.pbi D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Dio.pbi D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Dio_PBcfg.pbi D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\DMA.pbi D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\DMA_PBcfg.pbi
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PCB_2_part2.pbi : PDBLINK D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Fan.pbi |  $
+D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\GPT.pbi $
+D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\LCD.pbi $
+D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\LPWAN.pbi $
+D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\main.pbi
+  flags = -M D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PCB_2_part2.pbi D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Fan.pbi D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\GPT.pbi D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\LCD.pbi D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\LPWAN.pbi D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\main.pbi
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PCB_2_part3.pbi : PDBLINK D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PLL.pbi |  $
+D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Port.pbi $
+D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Port_PBcfg.pbi $
+D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\potentiometer.pbi $
+D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\servo_motor.pbi
+  flags = -M D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PCB_2_part3.pbi D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PLL.pbi D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Port.pbi D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\Port_PBcfg.pbi D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\potentiometer.pbi D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\servo_motor.pbi
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PCB_2_part4.pbi : PDBLINK D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\sys_timer.pbi |  $
+D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\TIM8_PWM.pbi $
+D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\UART.pbi
+  flags = -M D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PCB_2_part4.pbi D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\sys_timer.pbi D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\TIM8_PWM.pbi D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\UART.pbi
+
+build D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PCB_2.pbd : PDBLINK D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PCB_2_part0.pbi |  $
+D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PCB_2_part1.pbi $
+D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PCB_2_part2.pbi $
+D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PCB_2_part3.pbi $
+D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PCB_2_part4.pbi
+  flags = -M D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PCB_2.pbd D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PCB_2_part0.pbi D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PCB_2_part1.pbi D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PCB_2_part2.pbi D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PCB_2_part3.pbi D$:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\PCB_2_part4.pbi
+

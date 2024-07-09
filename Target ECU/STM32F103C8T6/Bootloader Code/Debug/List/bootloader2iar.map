@@ -1,0 +1,444 @@
+###############################################################################
+#
+# IAR ELF Linker V9.50.2.385/W64 for ARM                  09/Jul/2024  05:03:50
+# Copyright 2007-2024 IAR Systems AB.
+#
+#    Output file  =
+#        D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote
+#        Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Exe\bootloader2iar.out
+#    Map file     =
+#        D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote
+#        Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\List\bootloader2iar.map
+#    Command line =
+#        -f "D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle
+#        Remote Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Exe\bootloader2iar.out.rsp"
+#        ("D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle
+#        Remote Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Obj\bootloader.o"
+#        "D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote
+#        Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Obj\CAN.o"
+#        "D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote
+#        Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Obj\CAN_PBCFG.o"
+#        "D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote
+#        Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Obj\cstartup_M.o"
+#        "D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote
+#        Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Obj\Delay.o"
+#        "D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote
+#        Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Obj\Det.o"
+#        "D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote
+#        Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Obj\Dio.o"
+#        "D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote
+#        Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Obj\Dio_PBcfg.o"
+#        "D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote
+#        Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Obj\LCD.o"
+#        "D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote
+#        Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Obj\main.o"
+#        "D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote
+#        Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Obj\PLL.o"
+#        "D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote
+#        Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Obj\Port.o"
+#        "D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote
+#        Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Obj\Port_PBcfg.o"
+#        "D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote
+#        Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Obj\stm32f1xx_hal.o"
+#        "D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote
+#        Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Obj\stm32f1xx_hal_cortex.o"
+#        "D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote
+#        Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Obj\stm32f1xx_hal_crc.o"
+#        "D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote
+#        Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Obj\stm32f1xx_hal_dma.o"
+#        "D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote
+#        Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Obj\stm32f1xx_hal_exti.o"
+#        "D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote
+#        Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Obj\stm32f1xx_hal_flash.o"
+#        "D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote
+#        Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Obj\stm32f1xx_hal_flash_ex.o"
+#        "D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote
+#        Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Obj\stm32f1xx_hal_gpio.o"
+#        "D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote
+#        Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Obj\stm32f1xx_hal_gpio_ex.o"
+#        "D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote
+#        Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Obj\stm32f1xx_hal_pwr.o"
+#        "D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote
+#        Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Obj\stm32f1xx_hal_rcc.o"
+#        "D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote
+#        Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Obj\stm32f1xx_hal_rcc_ex.o"
+#        "D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote
+#        Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Obj\stm32f1xx_hal_tim.o"
+#        "D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote
+#        Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Obj\stm32f1xx_hal_tim_ex.o"
+#        "D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote
+#        Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Obj\stm32f1xx_hal_uart.o"
+#        "D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote
+#        Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Obj\watchdog.o"
+#        --no_out_extension -o "D:\College files\EECE 4th Year\Graduation
+#        Project\FOTA&Vehicle Remote Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Exe\bootloader2iar.out"
+#        --map "D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle
+#        Remote Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\List\bootloader2iar.map"
+#        --config D:\EngineeringApps\IAR\arm/config/linker/ST/stm32f103x8.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale
+#        --cpu=Cortex-M3 --fpu=None) --dependencies=n "D:\College files\EECE
+#        4th Year\Graduation Project\FOTA&Vehicle Remote Access\Dr. Reyad\STM32
+#        Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Exe\bootloader2iar.out.iar_deps"
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because --advanced_heap
+was not specified and the application did not appear to
+be primarily optimized for speed.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x800'ffff] { ro };
+define block CSTACK with size = 2K, alignment = 8 { };
+define block HEAP with size = 2K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'4fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address  Aligment    Size  Object
+  -------            ----         -------  --------    ----  ------
+"A0":                                                  0xe0
+  .intvec            const     0x800'0000         4    0xe0  cstartup_M.o [1]
+                             - 0x800'00e0              0xe0
+
+"P1":                                                0x26e3
+  .text              ro code   0x800'00e0         4   0xdc4  Port.o [1]
+  .text              ro code   0x800'0ea4         2     0x2  Det.o [1]
+  .text              ro code   0x800'0ea6         2    0x7e  lz77_init_single.o [3]
+  .text              ro code   0x800'0f24         4   0x8fa  bootloader.o [1]
+  .text              ro code   0x800'181e         2     0x2  cstartup_M.o [1]
+  .text              ro code   0x800'1820         4   0x570  CAN.o [1]
+  .text              ro code   0x800'1d90         4    0x40  watchdog.o [1]
+  .text              ro code   0x800'1dd0         2   0x1f0  LCD.o [1]
+  .text              ro code   0x800'1fc0         4    0x66  ABImemset.o [3]
+  .text              ro code   0x800'2026         2     0x2  cstartup_M.o [1]
+  .text              ro code   0x800'2028         4    0x1a  Delay.o [1]
+  .text              ro code   0x800'2042         2     0x2  cstartup_M.o [1]
+  .text              ro code   0x800'2044         4   0x1b4  stm32f1xx_hal_flash.o [1]
+  .text              ro code   0x800'21f8         4    0xf8  stm32f1xx_hal_flash_ex.o [1]
+  .text              ro code   0x800'22f0         4    0xfc  Dio.o [1]
+  .text              ro code   0x800'23ec         4    0x1e  U64Shr.o [3]
+  .text              ro code   0x800'240a         2     0x2  cstartup_M.o [1]
+  .text              ro code   0x800'240c         4     0xc  stm32f1xx_hal.o [1]
+  .rodata            const     0x800'2418         4    0xe0  CAN_PBCFG.o [1]
+  .text              ro code   0x800'24f8         4    0x50  main.o [1]
+  .text              ro code   0x800'2548         4    0x4c  PLL.o [1]
+  .text              ro code   0x800'2594         2    0x38  zero_init3.o [3]
+  .text              ro code   0x800'25cc         4    0x2a  data_init.o [3]
+  .iar.init_table    const     0x800'25f8         4    0x20  - Linker created -
+  .text              ro code   0x800'2618         2     0x2  cstartup_M.o [1]
+  .text              ro code   0x800'261c         4    0x1e  cmain.o [3]
+  .text              ro code   0x800'263a         2     0x4  low_level_init.o [2]
+  .text              ro code   0x800'263e         2     0x4  exit.o [2]
+  .text              ro code   0x800'2642         2     0x2  cstartup_M.o [1]
+  .text              ro code   0x800'2644         4     0xa  cexit.o [3]
+  .text              ro code   0x800'264e         2     0x2  cstartup_M.o [1]
+  .text              ro code   0x800'2650         4    0x14  exit.o [4]
+  .rodata            const     0x800'2664         4    0x1c  bootloader.o [1]
+  .rodata            const     0x800'2680         4    0x14  CAN_PBCFG.o [1]
+  .rodata            const     0x800'2694         4    0x14  main.o [1]
+  .rodata            const     0x800'26a8         4    0x10  bootloader.o [1]
+  .rodata            const     0x800'26b8         4    0x10  bootloader.o [1]
+  .rodata            const     0x800'26c8         4    0x10  bootloader.o [1]
+  .rodata            const     0x800'26d8         4    0x10  bootloader.o [1]
+  .rodata            const     0x800'26e8         4    0x10  Dio_PBcfg.o [1]
+  .text              ro code   0x800'26f8         2    0x10  cstartup_M.o [1]
+  .rodata            const     0x800'2708         4     0xc  bootloader.o [1]
+  .rodata            const     0x800'2714         4     0xc  bootloader.o [1]
+  .rodata            const     0x800'2720         4     0x8  bootloader.o [1]
+  .rodata            const     0x800'2728         4     0x4  bootloader.o [1]
+  .text              ro code   0x800'272c         2     0x2  cstartup_M.o [1]
+  .text              ro code   0x800'272e         2     0x2  cstartup_M.o [1]
+  .text              ro code   0x800'2730         2     0x2  cstartup_M.o [1]
+  .rodata            const     0x800'2732               0x0  zero_init3.o [3]
+  .rodata            const     0x800'2732               0x0  lz77_init_single.o [3]
+  Initializer bytes  const     0x800'2732              0x91  <for P2-1>
+                             - 0x800'27c3            0x26e3
+
+"P2", part 1 of 3:                                    0x1b4
+  P2-1                        0x2000'0000             0x1b4  <Init block>
+    .data            inited   0x2000'0000         4    0x18  bootloader.o [1]
+    .data            inited   0x2000'0018         4    0x18  bootloader.o [1]
+    .data            inited   0x2000'0030         4    0x18  bootloader.o [1]
+    .data            inited   0x2000'0048         4     0xc  bootloader.o [1]
+    .data            inited   0x2000'0054         4   0x160  Port_PBcfg.o [1]
+                            - 0x2000'01b4             0x1b4
+
+"P2", part 2 of 3:                                    0x100
+  .bss               zero     0x2000'01b4         4    0xc8  bootloader.o [1]
+  .bss               zero     0x2000'0280         8    0x20  stm32f1xx_hal_flash.o [1]
+  .bss               zero     0x2000'02a0         4     0x4  bootloader.o [1]
+  .bss               zero     0x2000'02a4         4     0x4  Dio.o [1]
+  .bss               zero     0x2000'02a8         4     0x4  Port.o [1]
+  .bss               zero     0x2000'02ac         4     0x4  stm32f1xx_hal.o [1]
+  .bss               zero     0x2000'02b0               0x1  Dio.o [1]
+  .bss               zero     0x2000'02b1               0x1  Port.o [1]
+                            - 0x2000'02b2              0xfe
+
+"P2", part 3 of 3:                                    0x800
+  CSTACK                      0x2000'02b8         8   0x800  <Block>
+    CSTACK           uninit   0x2000'02b8             0x800  <Block tail>
+                            - 0x2000'0ab8             0x800
+
+Unused ranges:
+
+         From           To    Size
+         ----           --    ----
+   0x800'27c3   0x800'ffff  0xd83d
+  0x2000'02b4  0x2000'02b7     0x4
+  0x2000'0ab8  0x2000'4fff  0x4548
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xfe:
+          0x2000'01b4   0xfe
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x91 (33% of destination):
+           0x800'2732   0x91
+    1 destination range, total size 0x1b4:
+          0x2000'0000  0x1b4
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                    ro code  ro data  rw data
+    ------                    -------  -------  -------
+command line/config:
+    ---------------------------------------------------
+    Total:
+
+D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote Access\Dr. Reyad\STM32 Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Obj: [1]
+    CAN.o                       1'392
+    CAN_PBCFG.o                            244
+    Delay.o                        26
+    Det.o                           2
+    Dio.o                         252                 5
+    Dio_PBcfg.o                             16
+    LCD.o                         496
+    PLL.o                          76
+    Port.o                      3'524                 5
+    Port_PBcfg.o                           118      352
+    bootloader.o                2'298      155      288
+    cstartup_M.o                   36      224
+    main.o                         80       20
+    stm32f1xx_hal.o                12                 4
+    stm32f1xx_hal_flash.o         436                32
+    stm32f1xx_hal_flash_ex.o      248
+    watchdog.o                     64
+    ---------------------------------------------------
+    Total:                      8'942      777      686
+
+dl7M_tln.a: [2]
+    exit.o                          4
+    low_level_init.o                4
+    ---------------------------------------------------
+    Total:                          8
+
+rt7M_tl.a: [3]
+    ABImemset.o                   102
+    U64Shr.o                       30
+    cexit.o                        10
+    cmain.o                        30
+    data_init.o                    42
+    lz77_init_single.o            126
+    zero_init3.o                   56
+    ---------------------------------------------------
+    Total:                        396
+
+shb_l.a: [4]
+    exit.o                         20
+    ---------------------------------------------------
+    Total:                         20
+
+    Gaps                            2        2        4
+    Linker created                          32    2'048
+-------------------------------------------------------
+    Grand Total:                9'368      811    2'738
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'25f8          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'2618          --   Gb  - Linker created -
+?main                    0x800'261d         Code  Gb  cmain.o [3]
+BL_Address_verification
+                         0x800'178d   0x26  Code  Lc  bootloader.o [1]
+BL_CHECK_SUM_verify      0x800'14a9   0x38  Code  Gb  bootloader.o [1]
+BL_Flash_Erase           0x800'15b3   0x50  Code  Lc  bootloader.o [1]
+BL_Get_Chip_Id_number    0x800'1559   0x5a  Code  Lc  bootloader.o [1]
+BL_Get_Help              0x800'1449   0x60  Code  Lc  bootloader.o [1]
+BL_Get_Version           0x800'14fd   0x5c  Code  Lc  bootloader.o [1]
+BL_SendMessage           0x800'1287    0x2  Code  Gb  bootloader.o [1]
+BL_Send_ACK              0x800'14e1    0xe  Code  Lc  bootloader.o [1]
+BL_Send_NACK             0x800'14ef    0xe  Code  Lc  bootloader.o [1]
+BL_Write_Data            0x800'16e1   0xac  Code  Lc  bootloader.o [1]
+BL_fetchHostCommand      0x800'130f  0x13a  Code  Gb  bootloader.o [1]
+BusFault_Handler         0x800'240b    0x2  Code  Wk  cstartup_M.o [1]
+CAN1_RX0_IRQHandler      0x800'2731    0x2  Code  Wk  cstartup_M.o [1]
+CAN_Configurations       0x800'2680   0x14  Data  Gb  CAN_PBCFG.o [1]
+CAN_Init                 0x800'1825  0x10c  Code  Gb  CAN.o [1]
+CAN_Receive_Message      0x800'19cf   0x44  Code  Gb  CAN.o [1]
+CAN_Transmitte           0x800'1931   0x9e  Code  Gb  CAN.o [1]
+CAN_Transmitted_Data    0x2000'0048    0xc  Data  Gb  bootloader.o [1]
+CSTACK$$Base            0x2000'02b8          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'0ab8          --   Gb  - Linker created -
+CheckBootloaderEN        0x800'0f25  0x2ec  Code  Lc  bootloader.o [1]
+DebugMon_Handler         0x800'264f    0x2  Code  Wk  cstartup_M.o [1]
+Delay_MS                 0x800'2029   0x1a  Code  Gb  Delay.o [1]
+Det_ReportError          0x800'0ea5    0x2  Code  Gb  Det.o [1]
+Dio_Configuration        0x800'26e8   0x10  Data  Gb  Dio_PBcfg.o [1]
+Dio_Init                 0x800'22f1   0x20  Code  Gb  Dio.o [1]
+Dio_PortChannels        0x2000'02a4    0x4  Data  Lc  Dio.o [1]
+Dio_Status              0x2000'02b0    0x1  Data  Lc  Dio.o [1]
+Dio_WriteChannel         0x800'2311   0xb8  Code  Gb  Dio.o [1]
+Drivers_Init             0x800'2515   0x22  Code  Gb  main.o [1]
+FLASH_MassErase          0x800'22a9   0x1a  Code  Lc  stm32f1xx_hal_flash_ex.o [1]
+FLASH_PageErase          0x800'22c3   0x1e  Code  Gb  stm32f1xx_hal_flash_ex.o [1]
+FLASH_Program_HalfWord   0x800'2113   0x14  Code  Lc  stm32f1xx_hal_flash.o [1]
+FLASH_SetErrorCode       0x800'217b   0x60  Code  Lc  stm32f1xx_hal_flash.o [1]
+FLASH_WaitForLastOperation
+                         0x800'2127   0x54  Code  Gb  stm32f1xx_hal_flash.o [1]
+Filter_Configurations    0x800'2418   0xe0  Data  Gb  CAN_PBCFG.o [1]
+Filters_Init             0x800'1a13  0x2fa  Code  Gb  CAN.o [1]
+FlashMemory_Payload_Write
+                         0x800'17b3   0x6c  Code  Lc  bootloader.o [1]
+Flash_Read_Verify       0x2000'0030   0x18  Data  Gb  bootloader.o [1]
+HAL_FLASHEx_Erase        0x800'21f9   0xb0  Code  Gb  stm32f1xx_hal_flash_ex.o [1]
+HAL_FLASH_Lock           0x800'2105    0xe  Code  Gb  stm32f1xx_hal_flash.o [1]
+HAL_FLASH_Program        0x800'2045   0xa0  Code  Gb  stm32f1xx_hal_flash.o [1]
+HAL_FLASH_Unlock         0x800'20e5   0x20  Code  Gb  stm32f1xx_hal_flash.o [1]
+HAL_GetTick              0x800'240d    0xc  Code  Wk  stm32f1xx_hal.o [1]
+HardFault_Handler        0x800'2027    0x2  Code  Wk  cstartup_M.o [1]
+Host_buffer             0x2000'01b4   0xc8  Data  Lc  bootloader.o [1]
+IWDG_Init                0x800'1d91   0x24  Code  Gb  watchdog.o [1]
+IWDG_Stop                0x800'1db5    0xe  Code  Gb  watchdog.o [1]
+JumpToMainHandler        0x800'1211   0x76  Code  Lc  bootloader.o [1]
+LCD_clearScreen          0x800'1fb7    0xa  Code  Gb  LCD.o [1]
+LCD_displayCharacter     0x800'1ea9   0xb6  Code  Gb  LCD.o [1]
+LCD_displayString        0x800'1f5f   0x20  Code  Gb  LCD.o [1]
+LCD_displayStringRowColumn
+                         0x800'1fa3   0x14  Code  Gb  LCD.o [1]
+LCD_init                 0x800'1dd1   0x22  Code  Gb  LCD.o [1]
+LCD_moveCursor           0x800'1f7f   0x24  Code  Gb  LCD.o [1]
+LCD_sendCommand          0x800'1df3   0xb6  Code  Gb  LCD.o [1]
+MemManage_Handler        0x800'2043    0x2  Code  Wk  cstartup_M.o [1]
+MyBank_Backup_Flash_Array
+                        0x2000'0018   0x18  Data  Gb  bootloader.o [1]
+MyBank_Flash_Array      0x2000'0000   0x18  Data  Gb  bootloader.o [1]
+NMI_Handler              0x800'181f    0x2  Code  Wk  cstartup_M.o [1]
+PendSV_Handler           0x800'272d    0x2  Code  Wk  cstartup_M.o [1]
+Perform_flash_erase      0x800'1603   0x80  Code  Lc  bootloader.o [1]
+Port_ConfigPtr          0x2000'02a8    0x4  Data  Lc  Port.o [1]
+Port_Configuration      0x2000'0054  0x160  Data  Gb  Port_PBcfg.o [1]
+Port_Init                0x800'00e1  0x7c0  Code  Gb  Port.o [1]
+Port_SetPinMode          0x800'08cd  0x5ac  Code  Gb  Port.o [1]
+Port_Status             0x2000'02b1    0x1  Data  Lc  Port.o [1]
+Received_Buffer_Address_Verify
+                         0x800'1289   0x86  Code  Gb  bootloader.o [1]
+Region$$Table$$Base      0x800'25f8          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'2618          --   Gb  - Linker created -
+SVC_Handler              0x800'2643    0x2  Code  Wk  cstartup_M.o [1]
+SysTick_Handler          0x800'272f    0x2  Code  Wk  cstartup_M.o [1]
+SystemClockInit          0x800'2549   0x4c  Code  Gb  PLL.o [1]
+UsageFault_Handler       0x800'2619    0x2  Code  Wk  cstartup_M.o [1]
+__aeabi_llsr             0x800'23ed         Code  Gb  U64Shr.o [3]
+__aeabi_memset           0x800'1fc1         Code  Gb  ABImemset.o [3]
+__cmain                  0x800'261d         Code  Gb  cmain.o [3]
+__enable_irq             0x800'1821    0x4  Code  Lc  CAN.o [1]
+__exit                   0x800'2651   0x14  Code  Gb  exit.o [4]
+__iar_Memset             0x800'1fc1         Code  Gb  ABImemset.o [3]
+__iar_Memset_word        0x800'1fc9         Code  Gb  ABImemset.o [3]
+__iar_data_init3         0x800'25cd   0x18  Code  Gb  data_init.o [3]
+__iar_lz77_init_single3
+                         0x800'0ea7   0x7e  Code  Gb  lz77_init_single.o [3]
+__iar_program_start      0x800'26f9   0x10  Code  Gb  cstartup_M.o [1]
+__iar_zero_init3         0x800'2595   0x38  Code  Gb  zero_init3.o [3]
+__low_level_init         0x800'263b    0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000   0xe0  Data  Gb  cstartup_M.o [1]
+_call_main               0x800'2629         Code  Gb  cmain.o [3]
+_exit                    0x800'2645         Code  Gb  cexit.o [3]
+bootloader_reset_handler
+                        0x2000'02a0    0x4  Data  Gb  bootloader.o [1]
+exit                     0x800'263f    0x4  Code  Gb  exit.o [2]
+main                     0x800'24f9   0x1c  Code  Gb  main.o [1]
+pFlash                  0x2000'0280   0x20  Data  Gb  stm32f1xx_hal_flash.o [1]
+uwTick                  0x2000'02ac    0x4  Data  Gb  stm32f1xx_hal.o [1]
+
+
+[1] = D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote Access\Dr. Reyad\STM32 Projects\IAR\Debugging\Seif\bootloader3\Bootloader_IAR_CAN_2_MANUAL\Debug\Obj
+[2] = dl7M_tln.a
+[3] = rt7M_tl.a
+[4] = shb_l.a
+
+  9'368 bytes of readonly  code memory
+    811 bytes of readonly  data memory
+  2'738 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

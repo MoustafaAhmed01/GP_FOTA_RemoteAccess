@@ -1,0 +1,11 @@
+D:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\servo_motor.pbi: \
+  D:\Shady\MCU_2_Final\MCU_PCB2\servo_motor.c \
+  D:\Shady\MCU_2_Final\MCU_PCB2\servo_motor.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\TIM8_PWM.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\Std_Types.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\Platform_Types.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\Compiler.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\System_Config.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\Common_Macros.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\TIM8_Registers.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\stm32f103c8t6_registers.h

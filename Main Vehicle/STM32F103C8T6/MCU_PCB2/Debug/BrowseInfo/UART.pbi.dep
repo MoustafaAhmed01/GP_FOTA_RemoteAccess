@@ -1,0 +1,12 @@
+D:\Shady\MCU_2_Final\MCU_PCB2\Debug\BrowseInfo\UART.pbi: \
+  D:\Shady\MCU_2_Final\MCU_PCB2\UART.c \
+  D:\Shady\MCU_2_Final\MCU_PCB2\UART.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\Std_Types.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\Platform_Types.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\Compiler.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\System_Config.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\Common_Macros.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\stm32f103c8t6_registers.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\UART_Regs.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\Port.h \
+  D:\Shady\MCU_2_Final\MCU_PCB2\Port_Cfg.h

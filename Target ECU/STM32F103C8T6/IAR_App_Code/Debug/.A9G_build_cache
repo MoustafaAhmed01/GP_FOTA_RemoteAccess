@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildDb>
+    <Tool>
+        <Name>linker</Name>
+        <Parent>
+            <Path>D:\College files\EECE 4th Year\Graduation Project\FOTA&amp;Vehicle Remote Access\Dr. Reyad\STM32 Projects\IAR\Debugging\Shady\Shady3\A9G_Driver WS\A9G_Driver WS\Debug\Exe\A9G.out</Path>
+            <Output>
+                <Path>D:\College files\EECE 4th Year\Graduation Project\FOTA&amp;Vehicle Remote Access\Dr. Reyad\STM32 Projects\IAR\Debugging\Shady\Shady3\A9G_Driver WS\A9G_Driver WS\Debug\List\A9G.map</Path>
+            </Output>
+        </Parent>
+    </Tool>
+</BuildDb>

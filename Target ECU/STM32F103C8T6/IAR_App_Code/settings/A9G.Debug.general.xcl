@@ -1,0 +1,15 @@
+"D:\EngineeringApps\IAR\arm\bin\armPROC.dll" 
+
+"D:\EngineeringApps\IAR\arm\bin\armSTLINK.dll" 
+
+"D:\College files\EECE 4th Year\Graduation Project\FOTA&Vehicle Remote Access\Dr. Reyad\STM32 Projects\IAR\Debugging\Shady\Shady3\A9G_Driver WS\A9G_Driver WS\Debug\Exe\A9G.out" 
+
+--plugin="D:\EngineeringApps\IAR\arm\bin\armLibSupportUniversal.dll" 
+
+--device_macro="D:\EngineeringApps\IAR\arm/config/debugger/ST/STM32F1xx.dmac" 
+
+--flash_loader="D:\EngineeringApps\IAR\arm\config\flashloader\ST\FlashSTM32F10xx8.board" 
+
+
+
+
